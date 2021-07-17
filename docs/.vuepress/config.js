@@ -1,6 +1,6 @@
 module.exports = {
   base: '/',
-  title: 'Higurashi Patch 帮助中心',
+  title: '《寒蝉鸣泣之时》简体中文汉化补丁 帮助中心',
   head: [
     ['link', {
       rel: 'icon',
