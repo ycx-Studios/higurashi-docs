@@ -7,7 +7,7 @@ heroText: false
 tagline: 　
 action:
   - text: 汉化补丁列表 →
-    link: /patch/
+    link: /patch/list/
     type: primary
 
   - text: 用户指南 🔖

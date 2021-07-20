@@ -3,16 +3,30 @@
 
 body, .page {
   background-size: cover;
-  // padding-bottom: 3.75rem;
 }
 
-.content__page-bottom, .blog-home {
-  padding-bottom: 3.75rem;
+.content__page-bottom, .blog-page-wrapper {
+  padding-bottom: 3.75rem !important;
 }
 
 body .home {
   min-height: auto;
-  padding-top: 9.375rem;
+  height: calc(100vh - 9.375rem);
+  max-width: unset !important;
+  padding: 9.375rem 0 0;
+}
+
+@media (min-width: 1025px) {
+  .home .hero img {
+    margin: 0 auto !important;
+    max-width: 960px !important;
+  }
+}
+
+@media (max-width: 959px) {
+  .hero-logo {
+    width: 100%;
+  }
 }
 
 body .home .hero {
@@ -20,18 +34,30 @@ body .home .hero {
   text-align: center;
 }
 
+.home .hero .action-button {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 body.theme-light, body.theme-light .page {
-    background: url("https://cdn.iycx.top/higurashi/bg_transform.jpg") no-repeat center center fixed !important;
+  background: url("https://cdn.iycx.top/higurashi/bg_transform.jpg") no-repeat center center fixed !important;
 }
 
 body.theme-dark, body.theme-dark .page {
-    background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
-    background-position-x: center !important;
-    background-position-y: center !important;
-    background-repeat-x: no-repeat !important;
-    background-repeat-y: no-repeat !important;
-    background-attachment: fixed !important;
-    background-color: #1e1e1e;
+  background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-repeat-x: no-repeat !important;
+  background-repeat-y: no-repeat !important;
+  background-attachment: fixed !important;
+  background-color: #1e1e1e;
+}
+
+body.theme-light .page.blog .blog-hero .mask, body.theme-light .home {
+  background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
+}
+
+body.theme-dark .page.blog .blog-hero .mask, body.theme-dark .home {
+  background: url("https://cdn.iycx.top/higurashi/bg_night.jpg") no-repeat center center fixed !important;
 }
 
 .footer-wrapper {
@@ -40,4 +66,8 @@ body.theme-dark, body.theme-dark .page {
   margin-bottom: 0;
   right: 0;
   left: 0;
+}
+
+.page.blog {
+  padding-top: 5rem !important;
 }

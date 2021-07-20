@@ -1,6 +1,5 @@
 ---
 icon: home
-category: 用户指南
 title: 用户指南
 article: false
 ---

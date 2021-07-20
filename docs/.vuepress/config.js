@@ -65,21 +65,22 @@ module.exports = config({
 
     nav: [{
         text: "首页",
-        link: "/",
-        icon: "home"
+        icon: "home",
+        link: "/"
       },
       {
         text: "汉化补丁",
         icon: "language",
+        prefix: "/patch",
         items: [
-          { text: "补丁列表", link: "/patch/", icon: "home" },
-          { text: "寒蝉鸣泣之时 鬼隐篇", link: "/patch/onikakushi/", icon: "language" }
+          { text: "补丁列表", link: "/list/", icon: "home" },
+          { text: "寒蝉鸣泣之时 鬼隐篇", link: "/onikakushi/", icon: "language" }
         ]
       },
       {
         text: "用户指南",
         icon: "guide",
-        link: "/guide/",
+        link: "/guide/"
       }
     ],
     sidebar: [
@@ -87,17 +88,19 @@ module.exports = config({
       {
         title: "汉化补丁",
         icon: "language",
-        prefix: "patch/",
+        prefix: "/patch/",
         children: [
-          ["", "补丁列表"],
-          "onikakushi"
-        ],
+          "list",
+          ["onikakushi", "寒蝉鸣泣之时 鬼隐篇"]
+         ],
       },
       {
         title: "用户指南",
         icon: "guide",
-        prefix: "guide/",
-        children: [""],
+        prefix: "/guide/",
+        children: [
+          
+        ],
       }
     ],
 
