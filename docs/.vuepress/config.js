@@ -3,6 +3,10 @@ const {
 } = require("vuepress-theme-hope");
 
 module.exports = config({
+  plugins: [
+    'vuepress-plugin-tabs'
+  ],
+  
   locales: {
     '/': {
       lang: 'zh-CN'

@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/ycx-Studios/higurashi-docs#readme",
   "devDependencies": {
+    "vue-tabs-component": "^1.5.0",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-tabs": "^0.3.0",
     "vuepress-theme-hope": "^1.19.0"
   }
 }
