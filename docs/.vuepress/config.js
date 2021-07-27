@@ -78,13 +78,19 @@ module.exports = config({
         prefix: "/patch",
         items: [
           { text: "补丁列表", link: "/list/", icon: "home" },
-          { text: "寒蝉鸣泣之时 鬼隐篇", link: "/onikakushi/", icon: "language" }
+          { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi/", icon: "language" }
         ]
       },
       {
         text: "用户指南",
         icon: "guide",
-        link: "/guide/"
+        prefix: "/guide",
+        items: [
+          { text: "07th-mod 补丁安装指南", link: "/main/", icon: "page" },
+          { text: "快捷键和设置说明", link: "/shortcuts/", icon: "page" },
+          { text: "常见问题", link: "/faq/", icon: "page" },
+          { text: "游戏及 Mod 卸载指南", link: "/uninstall/", icon: "page" }
+        ]
       }
     ],
     sidebar: [
@@ -95,7 +101,7 @@ module.exports = config({
         prefix: "/patch/",
         children: [
           "list",
-          ["onikakushi", "寒蝉鸣泣之时 鬼隐篇"]
+          ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"]
          ],
       },
       {
@@ -103,7 +109,10 @@ module.exports = config({
         icon: "guide",
         prefix: "/guide/",
         children: [
-          
+          "main",
+          "shortcuts",
+          "faq",
+          "uninstall"
         ],
       }
     ],
@@ -112,9 +121,9 @@ module.exports = config({
       avatar: "https://cdn.iycx.top/files/YS.jpg",
       sidebarDisplay: "mobile",
       links: {
-        Steam: "https://keylol.com",
+        Steam: "https://keylol.com/forum.php?mod=forumdisplay&fid=257&filter=typeid&typeid=269",
         Baidu: "https://tieba.baidu.com/f?ie=utf-8&kw=%E7%A7%8B%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6",
-        Github: "https://github.com",
+        Github: "https://github.com/ycx-Studios/higurashi-docs",
       },
     },
 
