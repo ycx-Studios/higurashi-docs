@@ -61,6 +61,7 @@ module.exports = config({
     repo: 'ycx-Studios/higurashi-docs',
     repoLabel: 'Github',
     docsDir: 'docs',
+    docsBranch: 'master',
     editLinks: true,
     editLinkText: '编辑此页',
     smoothScroll: true,
