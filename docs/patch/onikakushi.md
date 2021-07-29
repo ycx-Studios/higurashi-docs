@@ -17,7 +17,7 @@ tag:
 同样, 关于这个补丁有任何问题可以先查看下方的常见问题部分, 如果实在找不到解决办法, 方法同上.  
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
 
-现已支持所有版本的游戏以及<font color='red'>高清补丁</font>使用汉化! (Steam, MangaGamer, GOG 版本)  
+现已支持所有版本的游戏以及<font color='#ff3a3a'>高清补丁</font>使用汉化! (Steam, MangaGamer, GOG 版本)  
 另: 中文版的 Steam 背景与徽标, 预览图:  
 ![](https://cdn.iycx.top/blog/2020/05/steam-library.jpg)  
 
@@ -33,14 +33,14 @@ tag:
 
 ## 更新日志
 
-### <font color='red'>Ver 1.22 (2020.09.27)</font>
+### <font color='#ff3a3a'>Ver 1.22 (2020.09.27)</font>
 <font color='red'>适配了高清补丁 (v6.5.0), 修复设置中滑条设置的错误.</font>  
 
-### <font color='red'>Ver 1.21 (2020.05.16)</font>
+### <font color='#ff3a3a'>Ver 1.21 (2020.05.16)</font>
 <font color='red'>适配了附加语音版, 现在两种汉化补丁都可以兼容所有游戏版本了.  
 修复设置中分辨率设置的错误, 优化存档中时间的显示格式.</font>  
 
-### <font color='red'>Ver 1.2 (2020.05.14)</font>
+### <font color='#ff3a3a'>Ver 1.2 (2020.05.14)</font>
 <font color='red'>修复游戏中可能会显示红色”X”的问题, 兼容 MangaGamer 官网游戏版本, 微调了部分字体的大小位置.  
 不出意外该版本将会是最终版, 没有重大问题将不会进行更新.</font>  
 
