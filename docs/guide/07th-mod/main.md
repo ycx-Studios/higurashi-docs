@@ -1,9 +1,10 @@
 ---
-icon: page
-title: 07th-mod 补丁安装指南
+icon: install
+title: 安装指南
 author: Lancher
 category: 使用指南
 tag:
+  - 07th-mod
   - 安装指南
 article: false
 star: 4
@@ -12,7 +13,7 @@ star: 4
 ::: danger 阅读前请注意！
 本文只介绍如何从 07th-mod 官网下载并安装高清语音补丁，并不包含本汉化补丁的安装教程。
 
-如果你想安装本汉化补丁，请[点此](../patch/list.md)。
+如果你想安装本汉化补丁，请[点此](../../patch/list.md)。
 :::
 
 ::: tip 如何解压 .7z 压缩包？

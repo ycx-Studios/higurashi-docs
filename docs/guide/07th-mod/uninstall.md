@@ -1,9 +1,10 @@
 ---
-icon: page
+icon: repair
 title: 游戏及 Mod 卸载指南
 author: Lancher
 category: 使用指南
 tag:
+  - 07th-mod
   - 安装指南
 article: false
 star: 1

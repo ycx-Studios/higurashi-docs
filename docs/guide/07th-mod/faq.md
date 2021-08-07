@@ -1,9 +1,10 @@
 ---
-icon: page
+icon: question
 title: 常见问题
 author: Lancher
 category: 使用指南
 tag:
+  - 07th-mod
   - 安装指南
 article: false
 star: 2
@@ -293,7 +294,7 @@ OST 重制是在四月补丁之前就开始的一个项目，包含对几首原�
 
 ## 注册表位置与如何清理 (仅 Windows)
 
-见[删除注册表](./uninstall.md#清除注册表-进阶-仅-windows)
+见[清除注册表](./uninstall.md#清除注册表-进阶-仅-windows)
 
 ## 我有关于主机版澪尽篇的问题
 

@@ -1,9 +1,10 @@
 ---
-icon: page
+icon: setting
 title: 快捷键和设置说明
 author: Lancher
 category: 使用指南
 tag:
+  - 07th-mod
   - 安装指南
 article: false
 star: 3

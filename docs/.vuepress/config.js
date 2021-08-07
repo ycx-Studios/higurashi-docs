@@ -78,19 +78,26 @@ module.exports = config({
         icon: "language",
         prefix: "/patch",
         items: [
-          { text: "补丁列表", link: "/list/", icon: "home" },
+          { text: "补丁列表", link: "/list/", icon: "list" },
           { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi/", icon: "language" }
         ]
       },
       {
-        text: "用户指南",
+        text: "使用指南",
         icon: "guide",
         prefix: "/guide",
         items: [
-          { text: "07th-mod 补丁安装指南", link: "/main/", icon: "page" },
-          { text: "快捷键和设置说明", link: "/shortcuts/", icon: "page" },
-          { text: "常见问题", link: "/faq/", icon: "page" },
-          { text: "游戏及 Mod 卸载指南", link: "/uninstall/", icon: "page" }
+          {
+            text: "07th-mod 补丁",
+            icon: "module",
+            prefix: "/07th-mod",
+            items: [
+              { text: "安装指南", link: "/main/", icon: "install" },
+              { text: "快捷键和设置说明", link: "/shortcuts/", icon: "setting" },
+              { text: "常见问题", link: "/faq/", icon: "question" },
+              { text: "游戏及 Mod 卸载指南", link: "/uninstall/", icon: "repair" }
+            ]
+          },
         ]
       }
     ],
@@ -106,14 +113,21 @@ module.exports = config({
          ],
       },
       {
-        title: "用户指南",
+        title: "使用指南",
         icon: "guide",
-        prefix: "/guide/",
+        prefix: "/guide",
         children: [
-          "main",
-          "shortcuts",
-          "faq",
-          "uninstall"
+          {
+            title: "07th-mod 补丁",
+            icon: "module",
+            prefix: "/07th-mod/",
+            children: [
+              "main",
+              "shortcuts",
+              "faq",
+              "uninstall"
+            ],
+          }
         ],
       }
     ],

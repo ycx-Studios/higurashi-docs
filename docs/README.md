@@ -10,6 +10,6 @@ action:
     link: /patch/list/
     type: primary
 
-  - text: 用户指南 🔖
+  - text: 使用指南 🔖
     link: /guide/
 ---
