@@ -8,6 +8,7 @@ time: 2017-09-03
 tag:
   - 汉化补丁
 ---
+![](https://cdn.iycx.top/higurashi/ep1_chs_cover.jpg)  
 ## 摘要
 <div align="center"><iframe width="100%" height="190" frameborder="0" src="https://store.steampowered.com/widget/310360/?t=%E3%80%8A%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6%E3%80%8B%E6%98%AF%E4%B8%80%E9%83%A8%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E3%80%82%E9%9F%B3%E4%B9%90%E3%80%81%E6%95%85%E4%BA%8B%E8%83%8C%E6%99%AF%E4%B8%8E%E8%A7%92%E8%89%B2%E5%85%B1%E5%90%8C%E5%88%9B%E9%80%A0%E4%BA%86%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C%EF%BC%8C%E6%98%AF%E7%8E%A9%E5%AE%B6%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AF%B4%E7%9A%84%E8%88%9E%E5%8F%B0%E3%80%82%E6%AC%A2%E7%AC%91%E3%80%81%E5%93%AD%E6%B3%A3%E3%80%81%E6%80%A8%E6%81%A8%E3%80%82%E8%AF%B7%E5%B8%A6%E7%9D%80%E9%82%A3%E6%A0%B7%E7%9A%84%E5%BF%83%E6%83%85%E4%B8%8E%E4%B8%BB%E4%BA%BA%E5%85%AC%E4%B8%80%E8%B5%B7%E4%BD%93%E9%AA%8C%E6%95%85%E4%BA%8B%E5%90%A7%E3%80%82"></iframe></div>  
 
@@ -34,20 +35,20 @@ tag:
 ## 更新日志
 
 
-### <font color='#ff3a3a'>Ver 1.23 (2021.08.08)</font>
+### Ver 1.23 (2021.08.08)
 <font color='red'>官方网站上线, 新增了游戏内检查更新的功能.  
 扩充了主菜单使用的字库, 存档、界面的缺字已经解决并汉化完成.  
 更换了高清补丁的名称 (07th-mod), 并跟进到版本 v7.0.3.</font>  
 
-### <font color='#ff3a3a'>Ver 1.22 (2020.09.27)</font>
+### Ver 1.22 (2020.09.27)
 <font color='red'>适配了高清补丁 (v6.5.0), 修复设置中滑条设置的错误.</font>  
 
-### <font color='#ff3a3a'>Ver 1.21 (2020.05.16)</font>
+### Ver 1.21 (2020.05.16)
 <font color='red'>适配了附加语音版, 现在两种汉化补丁都可以兼容所有游戏版本了.  
 修复设置中分辨率设置的错误, 优化存档中时间的显示格式.  
 ![](https://cdn.iycx.top/blog/2017/09/save-load.jpg)</font>  
 
-### <font color='#ff3a3a'>Ver 1.2 (2020.05.14)</font>
+### Ver 1.2 (2020.05.14)
 <font color='red'>修复游戏中可能会显示红色”X”的问题, 兼容 MangaGamer 官网游戏版本, 微调了部分字体的大小位置.  
 不出意外该版本将会是最终版, 没有重大问题将不会进行更新.</font>  
 

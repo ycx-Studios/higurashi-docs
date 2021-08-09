@@ -1,12 +1,11 @@
-const {
-  config
-} = require("vuepress-theme-hope");
+const { config } = require('vuepress-theme-hope');
+const path = require('path')
 
 module.exports = config({
   plugins: [
     'vuepress-plugin-tabs'
   ],
-  
+
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -68,11 +67,8 @@ module.exports = config({
     feed: false,
     pwa: false,
 
-    nav: [{
-        text: "首页",
-        icon: "home",
-        link: "/"
-      },
+    nav: [
+      { text: "首页", icon: "home", link: "/" },
       {
         text: "汉化补丁",
         icon: "language",
@@ -99,7 +95,8 @@ module.exports = config({
             ]
           },
         ]
-      }
+      },
+      { text: "关于我们", icon: "info", link: "/about" },
     ],
     sidebar: [
       "",
@@ -110,7 +107,7 @@ module.exports = config({
         children: [
           "list",
           ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"]
-         ],
+        ],
       },
       {
         title: "使用指南",
@@ -127,9 +124,10 @@ module.exports = config({
               "faq",
               "uninstall"
             ],
-          }
+          },
         ],
-      }
+      },
+      "about"
     ],
 
     blog: {
@@ -145,7 +143,7 @@ module.exports = config({
     footer: {
       display: true,
       content: "© 2013-2021 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
-      copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | AGPL-3.0 Licensed",
+      copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
     },
 
     comment: {
@@ -189,5 +187,28 @@ module.exports = config({
         ],
       },
     },
+  },
+  configureWebpack: () => {
+    const NODE_ENV = process.env.NODE_ENV
+    if (NODE_ENV === 'production') {
+      return {
+        output: {
+          publicPath: 'https://cdn.jsdelivr.net/gh/ycx-studios/higurashi-docs@gh-pages/'
+        },
+        resolve: {
+          alias: {
+            'public': path.resolve(__dirname, './public')
+          }
+        }
+      }
+    } else {
+      return {
+        resolve: {
+          alias: {
+            'public': path.resolve(__dirname, './public')
+          }
+        }
+      }
+    }
   },
 });
