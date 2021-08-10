@@ -34,7 +34,6 @@ tag:
 
 ## 更新日志
 
-
 ### Ver 1.23 (2021.08.08)
 <font color='red'>官方网站上线, 新增了游戏内检查更新的功能.  
 扩充了主菜单使用的字库, 存档、界面的缺字已经解决并汉化完成.  
@@ -77,8 +76,8 @@ Linux 测试平台: Ubuntu 18.04.5 LTS x64, MacOS 测试平台: macOS Big Sur 11
 4. 运行游戏  
 
 ## 下载地址
-阿里云盘: [https://alywp.net/4CcDwy](https://alywp.net/4CcDwy)
-天翼云盘: [http://cloud.189.cn/t/RFVBRbnAFZvu](http://cloud.189.cn/t/RFVBRbnAFZvu)  
+阿里云盘: [https://alywp.net/4CcDwy](https://alywp.net/4CcDwy)  
+天翼云盘: [https://cloud.189.cn/t/RFVBRbnAFZvu](https://cloud.189.cn/t/RFVBRbnAFZvu)  
 百度网盘: [https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw 提取码: 2333](https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw#2333)  
 中文 Steam 背景与徽标: [Steam_Library_Ep01.zip](https://cdn.iycx.top/blog/2020/05/Steam_Library_Ep01.zip)  
 

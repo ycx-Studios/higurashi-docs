@@ -75,7 +75,8 @@ module.exports = config({
         prefix: "/patch",
         items: [
           { text: "补丁列表", link: "/list/", icon: "list" },
-          { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi/", icon: "language" }
+          { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi/", icon: "language" },
+          { text: "寒蝉鸣泣之时：罪灭篇", link: "/tsumihoroboshi/", icon: "language" }
         ]
       },
       {
@@ -106,7 +107,8 @@ module.exports = config({
         prefix: "/patch/",
         children: [
           "list",
-          ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"]
+          ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"],
+          ["tsumihoroboshi", "寒蝉鸣泣之时：罪灭篇"]
         ],
       },
       {
