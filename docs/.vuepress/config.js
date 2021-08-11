@@ -162,8 +162,9 @@ module.exports = config({
       ],
       meta: ['nick', 'mail', 'link'],
       requiredMeta: ['nick', 'mail'],
-      pageSize: 5,
+      pageSize: 8,
       copyright: false,
+      avatar: 'mp'
     },
 
     copyright: {
