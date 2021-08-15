@@ -164,7 +164,11 @@ module.exports = config({
       requiredMeta: ['nick', 'mail'],
       pageSize: 8,
       copyright: false,
-      avatar: 'mp'
+      avatar: 'mp',
+      locale: {
+        placeholder: '请填写留言内容，支持 Markdown 格式。\n填写邮箱可以在被回复时收到邮件提醒，也可以注册并登录一个账号。\n左下角的四个按钮分别是：格式帮助、表情、上传图片与预览。',
+        admin: '管理员'
+      }
     },
 
     copyright: {
