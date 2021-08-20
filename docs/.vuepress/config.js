@@ -136,7 +136,7 @@ module.exports = config({
       avatar: "https://cdn.iycx.top/files/YS.jpg",
       sidebarDisplay: "mobile",
       links: {
-        Steam: "https://keylol.com/forum.php?mod=forumdisplay&fid=257&filter=typeid&typeid=269",
+        Steam: "https://store.steampowered.com/bundle/709",
         Baidu: "https://tieba.baidu.com/f?ie=utf-8&kw=%E7%A7%8B%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6",
         Github: "https://github.com/ycx-Studios/higurashi-docs",
       },
