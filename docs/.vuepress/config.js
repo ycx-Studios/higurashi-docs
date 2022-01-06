@@ -195,7 +195,7 @@ module.exports = config({
       },
     },
   },
-  configureWebpack: () => {
+  /* configureWebpack: () => {
     const NODE_ENV = process.env.NODE_ENV
     if (NODE_ENV === 'production') {
       return {
@@ -217,5 +217,5 @@ module.exports = config({
         }
       }
     }
-  },
+  }, */
 });
