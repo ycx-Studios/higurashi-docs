@@ -144,7 +144,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "© 2013-2021 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
+      content: "© 2013-2022 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
       copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
     },
 
