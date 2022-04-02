@@ -1,18 +1,26 @@
-const { config } = require('vuepress-theme-hope');
-const path = require('path')
+import hope from "vuepress-theme-hope";
 
-module.exports = config({
+const base = process.env.BASE || "/";
+const hostname =
+  process.env.HOSTNAME || "https://higurashi.ycx-studios.site";
+
+export default hope.config({
+  base,
+
+  title: "《寒蝉鸣泣之时》系列简体中文汉化补丁",
+
+  dest: "./dist",
+  
   plugins: [
     'vuepress-plugin-tabs'
   ],
 
   locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
+    "/": {
+      lang: "zh-CN",
+    },
   },
-  title: "《寒蝉鸣泣之时》系列简体中文汉化补丁",
-
+  
   head: [
     [
       'link',
@@ -20,44 +28,23 @@ module.exports = config({
         rel: 'icon',
         href: 'https://cdn.iycx.top/favicon.ico'
       },
-    ],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"
-      },
-    ],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
-      },
-    ],
-    ["script", {
-      src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"
-    }],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"
-      },
-    ],
+    ]
   ],
 
   themeConfig: {
+    logo: "https://cdn.iycx.top/higurashi/mologo.png",
+    hostname,
+    
+    searchPlaceholder: "搜索...",
+    
     themeColor: {
       blue: "#4885ed",
       purple: "#625684"
     },
 
-    searchPlaceholder: "搜索...",
-
-    logo: "https://cdn.iycx.top/higurashi/mologo.png",
-    hostname: "https://higurashi.ycx-studios.site",
-
     author: "ycx Studios",
+    repo: "https://github.com/ycx-Studios/higurashi-docs",
     lastUpdated: '最后更新',
-    repo: 'ycx-Studios/higurashi-docs',
     repoLabel: 'Github',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -99,38 +86,41 @@ module.exports = config({
       },
       { text: "关于我们", icon: "info", link: "/about" },
     ],
-    sidebar: [
-      "",
-      {
-        title: "汉化补丁",
-        icon: "language",
-        prefix: "/patch/",
-        children: [
-          "list",
-          ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"],
-          ["tsumihoroboshi", "寒蝉鸣泣之时：罪灭篇"]
-        ],
-      },
-      {
-        title: "使用指南",
-        icon: "guide",
-        prefix: "/guide",
-        children: [
-          {
-            title: "07th-mod 补丁",
-            icon: "module",
-            prefix: "/07th-mod/",
-            children: [
-              "main",
-              "shortcuts",
-              "faq",
-              "uninstall"
-            ],
-          },
-        ],
-      },
-      "about"
-    ],
+
+    sidebar: {
+      "/": [
+        "",
+        {
+          title: "汉化补丁",
+          icon: "language",
+          prefix: "/patch/",
+          children: [
+            "list",
+            ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"],
+            ["tsumihoroboshi", "寒蝉鸣泣之时：罪灭篇"]
+          ],
+        },
+        {
+          title: "使用指南",
+          icon: "guide",
+          prefix: "/guide",
+          children: [
+            {
+              title: "07th-mod 补丁",
+              icon: "module",
+              prefix: "/07th-mod/",
+              children: [
+                "main",
+                "shortcuts",
+                "faq",
+                "uninstall"
+              ],
+            },
+          ],
+        },
+        "about"
+      ],
+    },
 
     blog: {
       avatar: "https://cdn.iycx.top/files/YS.jpg",
@@ -174,6 +164,8 @@ module.exports = config({
     copyright: {
       status: "global",
     },
+
+    cleanUrl: false,
 
     git: {
       timezone: "Asia/Shanghai",
