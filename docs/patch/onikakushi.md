@@ -78,8 +78,10 @@ Linux 测试平台: Ubuntu 18.04.5 LTS x64, MacOS 测试平台: macOS Big Sur 11
 ## 下载地址
 阿里云盘: [https://alywp.net/4CcDwy](https://alywp.net/4CcDwy)  
 天翼云盘: [https://cloud.189.cn/t/RFVBRbnAFZvu](https://cloud.189.cn/t/RFVBRbnAFZvu)  
+OneDrive 备用: [https://pan.iycx.top/s/PAuQ](https://pan.iycx.top/s/PAuQ)  
 百度网盘: [https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw 提取码: 2333](https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw#2333)  
 中文 Steam 背景与徽标: [Steam_Library_Ep01.zip](https://cdn.iycx.top/blog/2020/05/Steam_Library_Ep01.zip)  
+> 注: OneDrive 备用不限速并且下载无限制, 但国内访问速度较慢, 推荐海外用户或其他地址无法下载时使用.  
 
 ## 常见问题
 ### 如何使用汉化补丁?

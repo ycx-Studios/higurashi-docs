@@ -51,8 +51,10 @@ Lancher 开坑 & 版本发布.
 ## 下载地址
 阿里云盘: [https://alywp.net/9JRmZ](https://alywp.net/9JRmZ)  
 天翼云盘: [https://cloud.189.cn/t/eyM3EbV3eQbu](https://cloud.189.cn/t/eyM3EbV3eQbu)  
+OneDrive 备用: [https://pan.iycx.top/s/VNfm](https://pan.iycx.top/s/VNfm)  
 百度网盘: [https://pan.baidu.com/s/1aW2_DM4MyXKB6UCaXIivRA 提取码: 2333](https://pan.baidu.com/s/1aW2_DM4MyXKB6UCaXIivRA#2333)  
 中文 Steam 背景与徽标: [Steam_Library_Ep06.zip](https://cdn.iycx.top/blog/2021/08/Steam_Library_Ep06.zip)  
+> 注: OneDrive 备用不限速并且下载无限制, 但国内访问速度较慢, 推荐海外用户或其他地址无法下载时使用.  
 
 ## 常见问题
 ### 如何使用汉化补丁?
