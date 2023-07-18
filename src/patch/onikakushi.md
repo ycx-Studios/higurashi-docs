@@ -4,7 +4,7 @@ image: https://cdn.iycx.top/higurashi/ep1_chs_cover.jpg
 author: ycx
 icon: language
 category: 汉化补丁
-time: 2017-09-03
+date: 2017-09-03
 tag:
   - 汉化补丁
 ---

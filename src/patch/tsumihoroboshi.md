@@ -4,7 +4,7 @@ image: https://cdn.iycx.top/higurashi/ep6_chs_cover.jpg
 author: ycx
 icon: language
 category: 汉化补丁
-time: 2021-08-10
+date: 2021-08-10
 tag:
   - 汉化补丁
 ---

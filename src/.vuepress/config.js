@@ -1,7 +1,6 @@
-const { config } = require('vuepress-theme-hope');
-const path = require('path')
+import { hopeTheme } from "vuepress-theme-hope";
 
-module.exports = config({
+export default {
   plugins: [
     'vuepress-plugin-tabs'
   ],
@@ -44,7 +43,7 @@ module.exports = config({
     ],
   ],
 
-  themeConfig: {
+  theme: hopeTheme({
     themeColor: {
       blue: "#4885ed",
       purple: "#625684"
@@ -61,38 +60,35 @@ module.exports = config({
     repoLabel: 'Github',
     docsDir: 'docs',
     docsBranch: 'master',
-    editLinks: true,
+    editLink: true,
     editLinkText: '编辑此页',
-    smoothScroll: true,
-    feed: false,
-    pwa: false,
 
-    nav: [
+    navbar: [
       { text: "首页", icon: "home", link: "/" },
       {
         text: "汉化补丁",
         icon: "language",
         prefix: "/patch",
-        items: [
-          { text: "补丁列表", link: "/list/", icon: "list" },
-          { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi/", icon: "language" },
-          { text: "寒蝉鸣泣之时：罪灭篇", link: "/tsumihoroboshi/", icon: "language" }
+        children: [
+          { text: "补丁列表", link: "/list", icon: "list" },
+          { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi", icon: "language" },
+          { text: "寒蝉鸣泣之时：罪灭篇", link: "/tsumihoroboshi", icon: "language" }
         ]
       },
       {
         text: "使用指南",
         icon: "guide",
         prefix: "/guide",
-        items: [
+        children: [
           {
             text: "07th-mod 补丁",
             icon: "module",
             prefix: "/07th-mod",
-            items: [
-              { text: "安装指南", link: "/main/", icon: "install" },
-              { text: "快捷键和设置说明", link: "/shortcuts/", icon: "setting" },
-              { text: "常见问题", link: "/faq/", icon: "question" },
-              { text: "游戏及 Mod 卸载指南", link: "/uninstall/", icon: "repair" }
+            children: [
+              { text: "安装指南", link: "/main", icon: "install" },
+              { text: "快捷键和设置说明", link: "/shortcuts", icon: "setting" },
+              { text: "常见问题", link: "/faq", icon: "question" },
+              { text: "游戏及 Mod 卸载指南", link: "/uninstall", icon: "repair" }
             ]
           },
         ]
@@ -102,24 +98,24 @@ module.exports = config({
     sidebar: [
       "",
       {
-        title: "汉化补丁",
+        text: "汉化补丁",
         icon: "language",
         prefix: "/patch/",
         children: [
-          "list",
-          ["onikakushi", "寒蝉鸣泣之时：鬼隐篇"],
-          ["tsumihoroboshi", "寒蝉鸣泣之时：罪灭篇"]
+          { text: "补丁列表", link: "list" },
+          { text: "寒蝉鸣泣之时：鬼隐篇", link: "onikakushi" },
+          { text: "寒蝉鸣泣之时：罪灭篇", link: "tsumihoroboshi" }
         ],
       },
       {
-        title: "使用指南",
+        text: "使用指南",
         icon: "guide",
-        prefix: "/guide",
+        prefix: "/guide/",
         children: [
           {
-            title: "07th-mod 补丁",
+            text: "07th-mod 补丁",
             icon: "module",
-            prefix: "/07th-mod/",
+            prefix: "07th-mod/",
             children: [
               "main",
               "shortcuts",
@@ -135,54 +131,54 @@ module.exports = config({
     blog: {
       avatar: "https://cdn.iycx.top/files/YS.jpg",
       sidebarDisplay: "mobile",
-      links: {
+      medias: {
         Steam: "https://store.steampowered.com/bundle/709",
         Baidu: "https://tieba.baidu.com/f?ie=utf-8&kw=%E7%A7%8B%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6",
         Github: "https://github.com/ycx-Studios/higurashi-docs",
       },
     },
 
-    footer: {
-      display: true,
-      content: "© 2013-2022 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
-      copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
-    },
+    displayFooter: true,
+    footer: "© 2013-2023 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
+    copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
 
-    comment: {
-      type: "waline",
-      serverURL: "https://higurashi-comments.ycx-studios.site",
-      visitor: true,
-      emoji: [
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
-      ],
-      meta: ['nick', 'mail', 'link'],
-      requiredMeta: ['nick', 'mail'],
-      pageSize: 8,
-      copyright: false,
-      avatar: 'mp',
-      locale: {
-        placeholder: '请填写留言内容，支持 Markdown 格式。\n填写邮箱可以在被回复时收到邮件提醒，也可以注册并登录一个账号。\n左下角的四个按钮分别是：格式帮助、表情、上传图片与预览。',
-        admin: '管理员'
-      }
-    },
-
-    copyright: {
-      status: "global",
-    },
-
-    git: {
-      timezone: "Asia/Shanghai",
-    },
-
-    mdEnhance: {
-      enableAll: true,
-      presentation: {
-        plugins: [
+    plugins: {
+      feed: false,
+      pwa: false,
+      blog: true,
+      
+      comment: {
+        provider: "Waline",
+        comment: true,
+        serverURL: "https://higurashi-comments.ycx-studios.site",
+        emoji: [
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+          'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+        ],
+        meta: ['nick', 'mail', 'link'],
+        requiredMeta: ['nick', 'mail'],
+        pageSize: 8,
+        copyright: false,
+        locale: {
+          placeholder: '请填写留言内容，支持 Markdown 格式。\n填写邮箱可以在被回复时收到邮件提醒，也可以注册并登录一个账号。\n左下角的四个按钮分别是：格式帮助、表情、上传图片与预览。',
+          admin: '管理员'
+        }
+      },
+      
+      copyright: {
+        status: "global",
+      },
+      
+      git: {
+        timezone: "Asia/Shanghai",
+      },
+      
+      mdEnhance: {
+        presentation: [
           "highlight",
           "math",
           "search",
@@ -193,8 +189,9 @@ module.exports = config({
           "chalkboard",
         ],
       },
-    },
-  },
+      
+    }
+  }),
   /* configureWebpack: () => {
     const NODE_ENV = process.env.NODE_ENV
     if (NODE_ENV === 'production') {
@@ -218,4 +215,4 @@ module.exports = config({
       }
     }
   }, */
-});
+};

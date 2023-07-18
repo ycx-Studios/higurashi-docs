@@ -5,7 +5,7 @@ icon: home
 heroImage: https://cdn.iycx.top/higurashi/logo.png
 heroText: false
 tagline: 　
-action:
+actions:
   - text: 汉化补丁列表 →
     link: /patch/list/
     type: primary
