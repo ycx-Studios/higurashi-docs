@@ -113,6 +113,7 @@ export default {
         text: "汉化补丁",
         icon: "language",
         prefix: "/patch/",
+        collapsible: true,
         children: [
           { text: "补丁列表", link: "list" },
           { text: "寒蝉鸣泣之时：鬼隐篇", link: "onikakushi" },
@@ -123,6 +124,7 @@ export default {
         text: "使用指南",
         icon: "guide",
         prefix: "/guide/",
+        collapsible: true,
         children: [
           {
             text: "07th-mod 补丁",

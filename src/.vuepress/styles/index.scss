@@ -16,17 +16,48 @@ html[data-theme="light"] {
   .home{
     background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
   }
+
+  .page{
+    background-image: url(https://cdn.iycx.top/higurashi/bg_transform.jpg)!important;
+    background-position-x: center!important;
+    background-position-y: center!important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed!important;
+    background-color: #1e1e1e;
+    .blog-hero{
+      .mask{
+        background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
+      }
+    }
+  }
 }
 
 html[data-theme="dark"] {
   .home{
-    background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
-    background-position-x: center !important;
-    background-position-y: center !important;
+    background-image: url(https://cdn.iycx.top/higurashi/bg_night.jpg) !important;
+    background-size: cover !important;
     background-attachment: fixed !important;
+    background-repeat: no-repeat;
     background-color: #1e1e1e;
   }
+  .page{
+    background-image: url(https://cdn.iycx.top/higurashi/bg_night.jpg)!important;
+    background-size: cover !important;
+    background-attachment: fixed!important;
+    background-repeat: no-repeat;
+    background-color: #1e1e1e;
+    .blog-hero{
+      .mask{
+      background: url("https://cdn.iycx.top/higurashi/bg_night.jpg") no-repeat center center fixed !important;
+    }
+    }
+  }
 
+}
+
+.sidebar{
+  padding-left: 0;
 }
 
 // .navbar{
