@@ -1,8 +1,16 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default {
   plugins: [
-    'vuepress-plugin-tabs'
+    'vuepress-plugin-tabs', searchPlugin({
+      isSearchable: (page) => page.path !== '/',
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        }
+      }
+    }),
   ],
 
   locales: {
@@ -48,9 +56,13 @@ export default {
       blue: "#4885ed",
       purple: "#625684"
     },
-
-    searchPlaceholder: "搜索...",
-
+    navbarLayout: {
+      start: ["Brand"],
+      center: [],
+      end: ["Outlook", "Search", "Links", "Repo"],
+    },
+    // searchPlaceholder: "搜索...",
+    navbarIcon: true,
     logo: "https://cdn.iycx.top/higurashi/mologo.png",
     hostname: "https://higurashi.ycx-studios.site",
 
@@ -146,7 +158,7 @@ export default {
       feed: false,
       pwa: false,
       blog: true,
-      
+
       comment: {
         provider: "Waline",
         comment: true,
@@ -168,15 +180,15 @@ export default {
           admin: '管理员'
         }
       },
-      
+
       copyright: {
         status: "global",
       },
-      
+
       git: {
         timezone: "Asia/Shanghai",
       },
-      
+
       mdEnhance: {
         presentation: [
           "highlight",
@@ -189,7 +201,7 @@ export default {
           "chalkboard",
         ],
       },
-      
+
     }
   }),
   /* configureWebpack: () => {

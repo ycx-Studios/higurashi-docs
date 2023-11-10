@@ -8,6 +8,34 @@
   cursor: url('//cdn.iycx.top/higurashi/chopper.cur'), default;
 }
 
+.hero-info-wrapper{
+  flex-direction: column;
+}
+
+html[data-theme="light"] {
+  .home{
+    background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
+  }
+}
+
+html[data-theme="dark"] {
+  .home{
+    background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    background-attachment: fixed !important;
+    background-color: #1e1e1e;
+  }
+
+}
+
+// .navbar{
+//   height: 0.6rem;
+//   .logo{
+//     height: 0.35rem;
+//     vertical-align:baseline;
+//   }
+// }
 /*
 body, .page {
   background-size: cover;
