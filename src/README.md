@@ -1,7 +1,7 @@
 ---
 home: true
-title: 主页
-icon: home
+title: 首页
+icon: house
 heroImage: https://cdn.iycx.top/higurashi/logo.png
 heroText: false
 tagline: 　

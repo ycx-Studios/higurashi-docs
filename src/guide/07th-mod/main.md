@@ -1,5 +1,5 @@
 ---
-icon: install
+icon: file-arrow-down
 title: 安装指南
 author: Lancher
 category: 使用指南

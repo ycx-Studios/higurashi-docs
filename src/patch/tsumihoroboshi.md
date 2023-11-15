@@ -2,7 +2,7 @@
 title: 《寒蝉鸣泣之时：罪灭篇》简体中文汉化补丁 Ver 1.0
 image: https://cdn.iycx.top/higurashi/ep6_chs_cover.jpg
 author: ycx
-icon: language
+icon: code-branch
 category: 汉化补丁
 date: 2021-08-10
 tag:

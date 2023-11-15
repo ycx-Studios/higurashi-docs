@@ -1,5 +1,5 @@
 ---
-icon: repair
+icon: screwdriver-wrench
 title: 游戏及 Mod 卸载指南
 author: Lancher
 category: 使用指南

@@ -1,5 +1,5 @@
 ---
-icon: module
+icon: cube
 title: 07th-mod 补丁
 article: false
 ---
