@@ -1,15 +1,26 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { searchPlugin } from "@vuepress/plugin-search";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default {
   plugins: [
-    'vuepress-plugin-tabs', searchPlugin({
-      isSearchable: (page) => page.path !== '/',
+    searchProPlugin({
+      indexContent: true,
+      autoSuggestions: true,
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: "分类：$content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: "标签：$content",
+        },
+      ],
       locales: {
         "/": {
           placeholder: "搜索...",
-        }
-      }
+        },
+      },
     }),
   ],
 
@@ -187,6 +198,7 @@ export default {
       },
 
       mdEnhance: {
+        tabs: true,
         gfm: true,
         revealJs: [
           "highlight",

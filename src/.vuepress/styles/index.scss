@@ -1,9 +1,3 @@
-/*
-// import icon
-@import '//at.alicdn.com/t/font_2410206_kxwb6og9m5.css'
-@require '~vuepress-plugin-tabs/dist/themes/default.styl'
-*/
-
 * {
   cursor: url('//cdn.iycx.top/higurashi/chopper.cur'), default;
 }
@@ -18,13 +12,14 @@ html[data-theme="light"] {
   }
 
   .page{
-    background-image: url(https://cdn.iycx.top/higurashi/bg_transform.jpg)!important;
+    background-image: url(https://cdn.iycx.top/higurashi/bg_transform.jpg) !important;
     background-position-x: center!important;
     background-position-y: center!important;
     background-repeat: no-repeat;
     background-size: cover !important;
     background-attachment: fixed!important;
     background-color: #1e1e1e;
+    
     .blog-hero{
       .mask{
         background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
@@ -49,8 +44,8 @@ html[data-theme="dark"] {
     background-color: #1e1e1e;
     .blog-hero{
       .mask{
-      background: url("https://cdn.iycx.top/higurashi/bg_night.jpg") no-repeat center center fixed !important;
-    }
+        background: url("https://cdn.iycx.top/higurashi/bg_night.jpg") no-repeat center center fixed !important;
+      }
     }
   }
 
@@ -58,6 +53,32 @@ html[data-theme="dark"] {
 
 .sidebar{
   padding-left: 0;
+}
+
+body .hero-info-wrapper {
+  padding: 5rem 0 0;
+}
+
+.blog-hero h1 {
+  font-weight: 500;
+  text-shadow: 0px 2px 5px #000, 0px -2px 5px #000, 2px 0px 5px #000, -2px 0px 5px #000;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.page.blog {
+  padding-top: 5rem !important;
+}
+
+#main-content, .blog-page-wrapper {
+  padding-bottom: 3.75rem !important;
 }
 
 // .navbar{
@@ -70,17 +91,6 @@ html[data-theme="dark"] {
 /*
 body, .page {
   background-size: cover;
-}
-
-.content__page-bottom, .blog-page-wrapper {
-  padding-bottom: 3.75rem !important;
-}
-
-body .home {
-  min-height: auto;
-  height: calc(100vh - 9.375rem);
-  max-width: unset !important;
-  padding: 9.375rem 0 0;
 }
 
 @media (min-width: 1025px) {
@@ -103,45 +113,6 @@ body .home .hero {
 
 .home .hero .action-button {
   background-color: rgba(255, 255, 255, 0.75);
-}
-
-body.theme-light, body.theme-light .page {
-  background: url("https://cdn.iycx.top/higurashi/bg_transform.jpg") no-repeat center center fixed !important;
-}
-
-body.theme-dark, body.theme-dark .page {
-  background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
-  background-position-x: center !important;
-  background-position-y: center !important;
-  background-repeat-x: no-repeat !important;
-  background-repeat-y: no-repeat !important;
-  background-attachment: fixed !important;
-  background-color: #1e1e1e;
-}
-
-body.theme-light .page.blog .blog-hero .mask, body.theme-light .home {
-  background: url("https://cdn.iycx.top/higurashi/bg.jpg") no-repeat center center fixed !important;
-}
-
-body.theme-dark .page.blog .blog-hero .mask, body.theme-dark .home {
-  background: url("https://cdn.iycx.top/higurashi/bg_night.jpg") no-repeat center center fixed !important;
-}
-
-.footer-wrapper {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
-}
-
-.page.blog {
-  padding-top: 5rem !important;
-}
-
-.blog-hero h1 {
-  text-shadow: 0px 2px 5px #000, 0px -2px 5px #000, 2px 0px 5px #000, -2px 0px 5px #000;
 }
 
 .footer-wrapper {
