@@ -56,10 +56,6 @@ export default {
   ],
 
   theme: hopeTheme({
-    themeColor: {
-      blue: "#2196F3",
-      purple: "#9C27B0"
-    },
     navbarLayout: {
       start: ["Brand"],
       center: [],
@@ -80,7 +76,6 @@ export default {
     repo: 'ycx-Studios/higurashi-docs',
     docsDir: 'docs',
     docsBranch: 'master',
-    editLinkText: '编辑此页',
 
     navbar: [{ text: "首页", icon: "house", link: "/" },
       {
