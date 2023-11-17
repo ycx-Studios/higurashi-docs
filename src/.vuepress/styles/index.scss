@@ -1,0 +1,104 @@
+* {
+  cursor: url('//cdn.iycx.top/higurashi/chopper.cur'), default;
+}
+
+.hero-info-wrapper {
+  flex-direction: column;
+}
+
+.home, .page, .page .blog-hero .mask {
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  background-color: var(--bg-color);
+  background-position: center !important;
+}
+
+.hero-info-wrapper {
+  padding: 5rem 0 0;
+  
+  .action-button {
+    border: 2px solid var(--theme-color);
+    color: var(--theme-color);
+  }
+}
+
+html[data-theme="light"] {
+  .home, .page .blog-hero .mask {
+    background-image: url(https://cdn.iycx.top/higurashi/bg.jpg) !important;
+  }
+
+  .page {
+    background-image: url(https://cdn.iycx.top/higurashi/bg_transform.jpg) !important;
+  }
+  
+  .hero-info-wrapper .action-button.default {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .hero-info-wrapper .action-button.default:hover {
+    background: rgba(255, 255, 255, 0.85);
+  }
+}
+
+html[data-theme="dark"] {
+  .home, .page .blog-hero .mask {
+    background-image: url(https://cdn.iycx.top/higurashi/bg_night.jpg) !important;
+  }
+
+  .page {
+    background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
+  }
+  
+  .hero-info-wrapper .action-button.default {
+    background: rgba(25, 25, 25, 0.8);
+  }
+  
+  .hero-info-wrapper .action-button.default:hover {
+    background: rgba(50, 50, 50, 0.8);
+  }
+}
+
+.sidebar {
+  padding-left: 0;
+}
+
+.blog-hero h1 {
+  font-weight: 300;
+  text-shadow: 0px 2px 5px #000, 0px -2px 5px #000, 2px 0px 5px #000, -2px 0px 5px #000;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  /* margin-bottom: 0; */
+  right: 0;
+  left: 0;
+  z-index: 99;
+  background: var(--navbar-bg-color);
+  box-shadow: 2px 0 8px var(--card-shadow);
+  -webkit-backdrop-filter: saturate(150%) blur(12px);
+  backdrop-filter: saturate(150%) blur(12px);
+}
+
+.page.blog {
+  padding-top: 5rem !important;
+}
+
+#main-content, .blog-page-wrapper {
+  padding-bottom: 3.75rem;
+}
+
+@media (max-width: 1190px) {
+  #main-content, .blog-page-wrapper {
+    padding-bottom: 5rem;
+  }
+}
+
+.search-pro-button:hover {
+  border: 1px solid var(--vp-tc) !important;
+}
+
+.search-pro-button {
+  border: 1px solid var(--vp-brc) !important;
+}

@@ -1,5 +1,5 @@
 ---
-icon: install
+icon: file-arrow-down
 title: 安装指南
 author: Lancher
 category: 使用指南
@@ -48,9 +48,9 @@ article: false
 
 以下分别对应了 Windows/Linux 和 Mac OSX 的安装教程。
 
-::::: tabs
+:::: tabs
 
-:::: tab Windows/Linux
+@tab Windows/Linux
 
 ::: danger Linux 用户注意：
 
@@ -96,10 +96,7 @@ GNOME/MATE 桌面 (如 Ubuntu、Fedora 等) 会导致游戏崩溃。
 
 7. 在确定游戏可以运行后，删除所有下载的压缩包。
 
-::::
-
-
-:::: tab "Mac OSX"
+@tab Mac OSX
 
 1. 找到并打开游戏根目录
 
@@ -147,8 +144,6 @@ GNOME/MATE 桌面 (如 Ubuntu、Fedora 等) 会导致游戏崩溃。
 
 7. 在确定游戏可以运行后，删除所有下载的压缩包以及 `HigurashiEp0X_Data` 文件夹。
 ::::
-
-:::::
 
 ## 仅语音补丁
 

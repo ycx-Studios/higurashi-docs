@@ -1,5 +1,5 @@
 ---
-icon: repair
+icon: screwdriver-wrench
 title: 游戏及 Mod 卸载指南
 author: Lancher
 category: 使用指南
@@ -49,7 +49,7 @@ article: false
 
 :::: tabs
 
-::: tab "方法一：从 Steam 中卸载"
+@tab 方法一：从 Steam 中卸载
 
 1. 打开 Steam
 
@@ -58,9 +58,8 @@ article: false
 3. 右击封面图 (栗子：顶端的封面图)
 
 4. 在右击菜单中，点击“清除自定义背景”和“清除自定义徽标”
-:::
 
-::: tab "方法二：删除文件 (进阶)"
+@tab 方法二：删除文件 (进阶)
 
 1. 进入 `..\Steam\userdata\[用户ID]\config\grid` 文件夹。
 
@@ -71,7 +70,6 @@ article: false
 
     - 不推荐删除整个文件夹，这样会清除你以前添加到所有自定义封面图
 
-:::
 ::::
 
 ## 清除注册表(进阶，仅 Windows)

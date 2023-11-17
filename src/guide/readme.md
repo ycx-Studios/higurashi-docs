@@ -1,5 +1,5 @@
 ---
-icon: guide
+icon: signs-post
 title: 使用指南
 article: false
 ---

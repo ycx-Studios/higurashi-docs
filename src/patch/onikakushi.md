@@ -2,9 +2,9 @@
 title: 《寒蝉鸣泣之时：鬼隐篇》简体中文汉化补丁 Ver 1.23
 image: https://cdn.iycx.top/higurashi/ep1_chs_cover.jpg
 author: ycx
-icon: language
+icon: code-branch
 category: 汉化补丁
-time: 2017-09-03
+date: 2017-09-03
 tag:
   - 汉化补丁
 ---

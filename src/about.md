@@ -1,6 +1,6 @@
 ---
 title: 关于我们
-icon: info
+icon: circle-info
 article: false
 ---
 ![](https://cdn.iycx.top/files/mologo.png)  

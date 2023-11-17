@@ -1,5 +1,5 @@
 ---
-icon: question
+icon: circle-question
 title: 常见问题
 author: Lancher
 category: 使用指南

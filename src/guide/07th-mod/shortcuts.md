@@ -1,5 +1,5 @@
 ---
-icon: setting
+icon: gears
 title: 快捷键和设置说明
 author: Lancher
 category: 使用指南
