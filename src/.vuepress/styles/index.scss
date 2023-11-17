@@ -11,11 +11,7 @@
   background-attachment: fixed !important;
   background-repeat: no-repeat;
   background-color: var(--bg-color);
-}
-
-.page, .page .blog-hero .mask {
-  background-position-x: center !important;
-  background-position-y: center !important;
+  background-position: center !important;
 }
 
 .hero-info-wrapper {
