@@ -12,14 +12,11 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
+    "@waline/client": "^2.15.8",
+    "nodejs-jieba": "^0.0.2",
     "vue": "^3.3.8",
     "vuepress": "2.0.0-rc.0",
     "vuepress-plugin-search-pro": "2.0.0-rc.0",
     "vuepress-theme-hope": "2.0.0-rc.0"
-  },
-  "peerDependencies": {
-    "@waline/client": "^2.15.8",
-    "reveal.js": "^5.0.2",
-    "mathjax-full": "^3.2.2"
   }
 }
