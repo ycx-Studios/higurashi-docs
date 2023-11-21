@@ -15,12 +15,16 @@
   }
 }
 
-.vp-page.vp-blog {
-  padding-top: 5rem !important;
+.vp-page, .blog-page-wrapper {
+  padding-bottom: 2.75rem;
+  
+  @media (max-width: 1190px) {
+    padding-bottom: 5rem;
+  }
 }
 
-.theme-container {
-  padding-bottom: 2.75rem;
+.vp-page.vp-blog {
+  padding-top: 5rem !important;
 }
 
 .vp-project-home, .vp-page, .vp-blog-mask {
