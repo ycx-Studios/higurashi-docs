@@ -29,7 +29,7 @@ export default {
       lang: 'zh-CN'
     }
   },
-  title: "《寒蝉鸣泣之时》系列简体中文汉化补丁",
+  title: "《寒蝉鸣泣之时》系列简体中文汉化补丁官方网站",
 
   head: [
     [
