@@ -22,6 +22,7 @@ export default hopeTheme({
     url: "https://www.chinalcmod.com",
     email: "admin@chinalcmod.com"
   },
+  
   repo: 'ycx-Studios/higurashi-docs',
   docsDir: 'docs',
   docsBranch: 'master',
@@ -49,16 +50,8 @@ export default hopeTheme({
     mdEnhance: {
       tabs: true,
       gfm: true,
-      revealJs: [
-        "highlight",
-        "math",
-        "search",
-        "notes",
-        "zoom",
-        "anything",
-        "audio",
-        "chalkboard",
-      ],
+      align: true,
+      attrs: true,
     },
   }
 });

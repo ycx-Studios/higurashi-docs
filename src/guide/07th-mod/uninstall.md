@@ -7,6 +7,7 @@ tag:
   - 07th-mod
   - 安装指南
 article: false
+order: 4
 ---
 
 ::: tip 本文译自 07th-mod 官网

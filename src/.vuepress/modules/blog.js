@@ -6,7 +6,6 @@ const kookMedia = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 102
 export default blog({
   name: "ycx Studios",
   avatar: "https://cdn.iycx.top/files/YS.jpg",
-  sidebarDisplay: "mobile",
   /* intro: "https://www.chinalcmod.com", */
   medias: {
     "Steam": "https://store.steampowered.com/bundle/709",

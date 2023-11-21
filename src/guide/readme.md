@@ -2,6 +2,7 @@
 icon: signs-post
 title: 使用指南
 article: false
+index: false
 ---
 ## [07th-mod 补丁](07th-mod/readme.md)
 

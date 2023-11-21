@@ -2,6 +2,7 @@
 icon: cube
 title: 07th-mod 补丁
 article: false
+index: false
 ---
 ## 07th-mod 补丁使用指南
 

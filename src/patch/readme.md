@@ -2,6 +2,7 @@
 title: 汉化补丁
 icon: language
 article: false
+index: false
 ---
 - [补丁列表](list.md)
 

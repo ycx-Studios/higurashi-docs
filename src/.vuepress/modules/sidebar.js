@@ -18,17 +18,7 @@ export default sidebar([
     icon: "signs-post",
     prefix: "/guide/",
     collapsible: true,
-    children: [{
-      text: "07th-mod 补丁",
-      icon: "cube",
-      prefix: "07th-mod/",
-      children: [
-        "main",
-        "shortcuts",
-        "faq",
-        "uninstall"
-      ],
-    }, ],
+    children: "structure",
   },
   "about",
 ]);
