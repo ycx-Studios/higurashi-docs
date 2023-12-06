@@ -26,11 +26,6 @@ export default {
           getter: (page) => page.frontmatter.author,
           formatter: "作者：$content",
         },
-        {
-          name: "updateTime",
-          getter: (page) => page.data.git?.updateTime.toLocaleString(),
-          formatter: "更新时间：$content",
-        },
       ],
       locales: {
         "/": {
