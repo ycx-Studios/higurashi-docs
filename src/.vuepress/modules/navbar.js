@@ -5,28 +5,28 @@ export default navbar([
   {
     text: "汉化补丁",
     icon: "language",
-    prefix: "/patch",
+    prefix: "/patch/",
     children: [
-      { text: "补丁列表", link: "/list", icon: "list" },
-      { text: "寒蝉鸣泣之时：鬼隐篇", link: "/onikakushi", icon: "code-branch" },
-      { text: "寒蝉鸣泣之时：罪灭篇", link: "/tsumihoroboshi", icon: "code-branch" }
+      { text: "补丁列表", link: "list", icon: "list" },
+      { text: "寒蝉鸣泣之时：鬼隐篇", link: "onikakushi", icon: "code-branch" },
+      { text: "寒蝉鸣泣之时：罪灭篇", link: "tsumihoroboshi", icon: "code-branch" }
     ]
   },
   {
     text: "使用指南",
     icon: "signs-post",
-    prefix: "/guide",
+    prefix: "/guide/",
     children: [{
       text: "07th-mod 补丁",
       icon: "cube",
-      prefix: "/07th-mod",
+      prefix: "07th-mod/",
       children: [
-          { text: "安装指南", link: "/main", icon: "file-arrow-down" },
-          { text: "快捷键和设置说明", link: "/shortcuts", icon: "gears" },
-          { text: "常见问题", link: "/faq", icon: "circle-question" },
-          { text: "游戏及 Mod 卸载指南", link: "/uninstall", icon: "screwdriver-wrench" }
+          { text: "安装指南", link: "main", icon: "file-arrow-down" },
+          { text: "快捷键和设置说明", link: "shortcuts", icon: "gears" },
+          { text: "常见问题", link: "faq", icon: "circle-question" },
+          { text: "游戏及 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
       ]
     }, ]
   },
-  { text: "关于我们", icon: "circle-info", link: "/about" },
+  { text: "关于我们", icon: "circle-info", link: "about" },
 ]);

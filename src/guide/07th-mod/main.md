@@ -10,7 +10,7 @@ article: false
 order: 1
 ---
 
-::: danger 阅读前请注意！
+::: caution 阅读前请注意！
 本文只介绍如何从 07th-mod 官网下载并安装高清语音补丁，并不包含本汉化补丁的安装教程。
 
 如果你想安装本汉化补丁，请[点此](../../patch/list.md)。
@@ -53,7 +53,7 @@ order: 1
 
 @tab Windows/Linux
 
-::: danger Linux 用户注意：
+::: caution Linux 用户注意：
 
 GNOME/MATE 桌面 (如 Ubuntu、Fedora 等) 会导致游戏崩溃。
 
