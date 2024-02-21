@@ -1,6 +1,6 @@
 {
   "name": "higurashi-docs",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "'Higurashi When They Cry' Series Game Simplified Chinese Language Patch Official Website",
   "license": "AGPL-3.0",
   "type": "module",
@@ -12,11 +12,11 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
-    "@waline/client": "^2.15.8",
+    "@waline/client": "^3.0.0-alpha.8",
     "nodejs-jieba": "^0.1.2",
-    "vue": "^3.3.10",
+    "vue": "^3.3.13",
     "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "2.0.0-rc.2",
-    "vuepress-theme-hope": "2.0.0-rc.2"
+    "vuepress-plugin-search-pro": "2.0.0-rc.7",
+    "vuepress-theme-hope": "2.0.0-rc.7"
   }
 }
