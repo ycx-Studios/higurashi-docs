@@ -33,7 +33,7 @@ export default hopeTheme({
   blog,
   
   displayFooter: true,
-  footer: "© 2013-2023 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
+  footer: "© 2013-2024 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
   copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
   plugins: {
     feed: false,

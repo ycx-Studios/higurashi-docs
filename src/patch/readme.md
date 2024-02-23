@@ -9,4 +9,5 @@ index: false
 ## 汉化补丁
 
 - [寒蝉鸣泣之时 鬼隐篇](onikakushi.md)
+- [寒蝉鸣泣之时 绵流篇](watanagashi.md)
 - [寒蝉鸣泣之时 罪灭篇](tsumihoroboshi.md)

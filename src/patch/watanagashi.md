@@ -12,7 +12,7 @@ tag:
 ## 摘要
 <div align="center"><iframe width="100%" height="190" frameborder="0" src="https://store.steampowered.com/widget/410890/?t=%E3%80%8A%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6%E3%80%8B%E6%98%AF%E4%B8%80%E9%83%A8%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E3%80%82%E9%9F%B3%E4%B9%90%E3%80%81%E6%95%85%E4%BA%8B%E8%83%8C%E6%99%AF%E4%B8%8E%E8%A7%92%E8%89%B2%E5%85%B1%E5%90%8C%E5%88%9B%E9%80%A0%E4%BA%86%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C%EF%BC%8C%E6%98%AF%E7%8E%A9%E5%AE%B6%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AF%B4%E7%9A%84%E8%88%9E%E5%8F%B0%E3%80%82%E6%AC%A2%E7%AC%91%E3%80%81%E5%93%AD%E6%B3%A3%E3%80%81%E6%80%A8%E6%81%A8%E3%80%82%E8%AF%B7%E5%B8%A6%E7%9D%80%E9%82%A3%E6%A0%B7%E7%9A%84%E5%BF%83%E6%83%85%E4%B8%8E%E4%B8%BB%E4%BA%BA%E5%85%AC%E4%B8%80%E8%B5%B7%E4%BD%93%E9%AA%8C%E6%95%85%E4%BA%8B%E5%90%A7%E3%80%82"></iframe></div>  
 
-该补丁同步于 [Keylol 其乐](), [百度秋蝉鸣泣之时吧]() 与 [哔哩哔哩专栏]() 发布.  
+该补丁同步于 [Keylol 其乐](https://keylol.com/t936094-1-1), [百度秋蝉鸣泣之时吧](https://tieba.baidu.com/p/8904925793) 与 [哔哩哔哩专栏](https://www.bilibili.com/read/cv31751345) 发布.  
 让各位久等了, 对于本次的补丁有任何建议可回帖或私信联系我.  
 同样, 关于这个补丁有任何问题可以先查看下方的常见问题部分, 如果实在找不到解决办法, 方法同上.  
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
@@ -68,4 +68,12 @@ tag:
 可以. 可以下载附加语音版补丁以及 07th-mod 补丁实现共存.  
 
 ## 预览图
-待完成  
+![](https://cdn.iycx.top/blog/2024/02/screenshot_01.jpg)
+
+![](https://cdn.iycx.top/blog/2024/02/screenshot_02.jpg)
+
+![](https://cdn.iycx.top/blog/2024/02/screenshot_03.jpg)
+
+![](https://cdn.iycx.top/blog/2024/02/screenshot_04.jpg)
+
+![](https://cdn.iycx.top/blog/2024/02/screenshot_05.jpg)
