@@ -21,5 +21,6 @@ export default sidebar([
     collapsible: true,
     children: "structure",
   },
+  { text: "资源下载", icon: "download", link: "https://download.chinalcmod.com/Higurashi" },
   "about",
 ]);

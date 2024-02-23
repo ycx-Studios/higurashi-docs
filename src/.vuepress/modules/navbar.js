@@ -29,5 +29,6 @@ export default navbar([
       ]
     }, ]
   },
+  { text: "资源下载", icon: "download", link: "https://download.chinalcmod.com/Higurashi" },
   { text: "关于我们", icon: "circle-info", link: "about" },
 ]);
