@@ -5,18 +5,17 @@
   "license": "AGPL-3.0",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-rc.0",
-    "@waline/client": "^3.0.0-alpha.8",
+    "@vuepress/bundler-vite": "2.0.0-rc.8",
+    "@waline/client": "^3.1.0",
     "nodejs-jieba": "^0.1.2",
-    "vue": "^3.3.13",
-    "vuepress": "2.0.0-rc.0",
-    "vuepress-plugin-search-pro": "2.0.0-rc.7",
-    "vuepress-theme-hope": "2.0.0-rc.7"
+    "vue": "^3.4.21",
+    "vuepress": "2.0.0-rc.8",
+    "vuepress-theme-hope": "2.0.0-rc.29"
   }
 }
