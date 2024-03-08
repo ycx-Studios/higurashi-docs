@@ -3,38 +3,6 @@ import { cut } from "nodejs-jieba";
 import theme from './modules/theme.js';
 
 export default {
-  plugins: [
-    searchProPlugin({
-      indexContent: true,
-      indexOptions: {
-        tokenize: (text, fieldName) =>
-          fieldName === "id" ? [text] : cut(text, true),
-      },
-      customFields: [
-        {
-          name: "category",
-          getter: (page) => page.frontmatter.category,
-          formatter: "分类：$content",
-        },
-        {
-          name: "tag",
-          getter: (page) => page.frontmatter.tag,
-          formatter: "标签：$content",
-        },
-        {
-          name: "author",
-          getter: (page) => page.frontmatter.author,
-          formatter: "作者：$content",
-        },
-      ],
-      locales: {
-        "/": {
-          placeholder: "搜索...",
-        },
-      },
-    }),
-  ],
-
   lang: 'zh-CN',
   title: "《寒蝉鸣泣之时》系列简体中文汉化补丁官方网站",
 
