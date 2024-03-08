@@ -9,27 +9,27 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 签出
         uses: actions/checkout@v3
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Setting up Node.js
+      - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
 
-      - name: Install and Build
+      - name: 安装与构建
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |
-          npm install
+          npm ci
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: Deploy
+      - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           branch: gh-pages
