@@ -8,7 +8,7 @@ heroAlt: 《寒蝉鸣泣之时》系列简体中文汉化补丁官方网站
 heroFullScreen: true　
 actions:
   - text: 汉化补丁列表 →
-    link: /patch/list/
+    link: /patch/list
     type: primary
 
   - text: 使用指南 📕
