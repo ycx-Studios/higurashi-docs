@@ -1,5 +1,5 @@
 ---
-title: 《寒蝉鸣泣之时：鬼隐篇》简体中文汉化补丁 Ver 1.23
+title: 《寒蝉鸣泣之时：鬼隐篇》简体中文汉化补丁 Ver 1.3
 image: https://cdn.iycx.top/higurashi/ep1_chs_cover.jpg
 author: ycx
 icon: code-branch
@@ -18,11 +18,12 @@ tag:
 同样, 关于这个补丁有任何问题可以先查看下方的常见问题部分, 如果实在找不到解决办法, 方法同上.  
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
 
-现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化 (适配版本为 **v7.0.3**, 如未说明均可兼容后续更新)! (Steam, MangaGamer, GOG 版本)  
+现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化 (适配版本为 **v7.1.1**, 如未说明均可兼容后续更新)! (Steam, MangaGamer, GOG 版本)  
 另: 中文版的 Steam 背景与徽标, 预览图:  
 ![](https://cdn.iycx.top/blog/2020/05/steam-library.jpg)  
 
 另: 官方已收到我们的简中汉化, 将在~~近期更新~~ (遥遥无期), 敬请期待!  
+Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.4.1  
 
 ## 参与人员
 监制: ycx  
@@ -34,6 +35,13 @@ tag:
 
 ## 更新日志
 
+### Ver 1.3 (2024.04.08)
+优化了汉化补丁的配置文件与脚本的加载方式.  
+优化了游戏内检查更新的方法, 可以针对某个单独的脚本动态进行热更新.  
+为游戏内显示的背景音乐信息添加哔哩哔哩试听渠道, 进行游戏时可以按右键在暂停菜单中查看.  
+现在可以在调试菜单中 (F10) 开启或关闭汉化补丁的功能, 或进行手动更新操作.  
+跟进 07th-mod 补丁版本 v7.1.1.  
+
 ### Ver 1.23 (2021.08.08)
 <font color='red'>官方网站上线, 新增了游戏内检查更新的功能.  
 扩充了主菜单使用的字库, 存档、界面的缺字已经解决并汉化完成.  
@@ -44,8 +52,9 @@ tag:
 
 ### Ver 1.21 (2020.05.16)
 <font color='red'>适配了附加语音版, 现在两种汉化补丁都可以兼容所有游戏版本了.  
-修复设置中分辨率设置的错误, 优化存档中时间的显示格式.  
-![](https://cdn.iycx.top/blog/2017/09/save-load.jpg)</font>  
+修复设置中分辨率设置的错误, 优化存档中时间的显示格式.</font>  
+
+![](https://cdn.iycx.top/blog/2017/09/save-load.jpg)  
 
 ### Ver 1.2 (2020.05.14)
 <font color='red'>修复游戏中可能会显示红色”X”的问题, 兼容 MangaGamer 官网游戏版本, 微调了部分字体的大小位置.  
@@ -57,7 +66,6 @@ tag:
 语音版补丁的原始来源为 GitHub, 地址: [https://github.com/07th-mod](https://github.com/07th-mod)  
 Windows 版本安装完成后打开网页已改为使用系统默认浏览器, 感谢 Keylol @一旁冷笑 的建议.  
 MacOS 版本的制作, 感谢 Keylol @niu541412 的建议.  
-Linux 测试平台: Ubuntu 18.04.5 LTS x64, MacOS 测试平台: macOS Big Sur 11.5.1  
 
 ### Ver 1.0 (2017.08.19)
 最初版本发布.  
@@ -70,7 +78,6 @@ Linux 测试平台: Ubuntu 18.04.5 LTS x64, MacOS 测试平台: macOS Big Sur 11
 注: 非 Windows 版本系统安装帮助均在压缩包内.  
 若要使用语音版, 无需下载原版汉化包与语音补丁, 仅需下载附加语音版汉化补丁即可.  
 若要使用 07th-mod 版, 请前往 [07th-mod](https://07th-mod.com/home/) 安装补丁, 此处附带了[安装指南](https://higurashi.ycx-studios.site/guide/07th-mod/main/).  
-如果汉化补丁没有作用, 请手动删除 “StreamingAssets/Update” 目录下的所有文件.  
 2. 解压缩.  
 3. 将汉化补丁放置在游戏目录下, 按照提示或 ReadMe 文件操作. (Mac 版本的具体操作可参考补丁目录下的安装教程视频)  
 4. 运行游戏  
@@ -78,10 +85,8 @@ Linux 测试平台: Ubuntu 18.04.5 LTS x64, MacOS 测试平台: macOS Big Sur 11
 ## 下载地址
 阿里云盘: [https://alywp.net/4CcDwy](https://alywp.net/4CcDwy)  
 天翼云盘: [https://cloud.189.cn/t/RFVBRbnAFZvu](https://cloud.189.cn/t/RFVBRbnAFZvu)  
-OneDrive 备用: [https://pan.iycx.top/s/PAuQ](https://pan.iycx.top/s/PAuQ)  
 百度网盘: [https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw 提取码: 2333](https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw#2333)  
-中文 Steam 背景与徽标: [Steam_Library_Ep01.zip](https://cdn.iycx.top/blog/2020/05/Steam_Library_Ep01.zip)  
-> 注: OneDrive 备用不限速并且下载无限制, 但国内访问速度较慢, 推荐海外用户或其他地址无法下载时使用.  
+中文 Steam 背景与徽标 (非必要): [Steam_Library_Ep01.zip](https://cdn.iycx.top/blog/2020/05/Steam_Library_Ep01.zip)  
 
 ## 常见问题
 ### 如何使用汉化补丁?

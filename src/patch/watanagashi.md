@@ -1,5 +1,5 @@
 ---
-title: 《寒蝉鸣泣之时：绵流篇》简体中文汉化补丁 Ver 1.0 Beta
+title: 《寒蝉鸣泣之时：绵流篇》简体中文汉化补丁 Ver 1.1
 image: https://cdn.iycx.top/higurashi/ep2_chs_cover.jpg
 author: ycx
 icon: code-branch
@@ -17,8 +17,9 @@ tag:
 同样, 关于这个补丁有任何问题可以先查看下方的常见问题部分, 如果实在找不到解决办法, 方法同上.  
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
 
-现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化! (Steam, MangaGamer, GOG 版本)  
+现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化 (适配版本为 **v5.1.1**, 如未说明均可兼容后续更新)! (Steam, MangaGamer, GOG 版本)  
 另: 有中文版的 Steam 背景与徽标可供下载.  
+Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.4.1  
 
 ## 参与人员
 监制: ycx  
@@ -30,6 +31,13 @@ tag:
 
 ## 更新日志
 
+### Ver 1.1 (2024.04.08)
+优化了汉化补丁的配置文件与脚本的加载方式.  
+优化了游戏内检查更新的方法, 可以针对某个单独的脚本动态进行热更新.  
+为游戏内显示的背景音乐信息添加哔哩哔哩试听渠道, 进行游戏时可以按右键在暂停菜单中查看.  
+现在可以在调试菜单中 (F10) 开启或关闭汉化补丁的功能, 或进行手动更新操作.  
+适配 07th-mod 补丁版本 v5.1.1.
+
 ### Ver 1.0 Beta (2024.02.21)
 最初版本发布.  
 
@@ -38,7 +46,6 @@ tag:
 注: 非 Windows 版本系统安装帮助均在压缩包内.  
 若要使用语音版, 无需下载原版汉化包与语音补丁, 仅需下载附加语音版汉化补丁即可.  
 若要使用 07th-mod 版, 请前往 [07th-mod](https://07th-mod.com/home/) 安装补丁, 此处附带了[安装指南](https://higurashi.ycx-studios.site/guide/07th-mod/main/).  
-如果汉化补丁没有作用, 请手动删除 “StreamingAssets/Update” 目录下的所有文件, 07th-mod 版无需进行此操作.  
 2. 解压缩.  
 3. 将汉化补丁放置在游戏目录下, 按照提示或 ReadMe 文件操作. (Mac 版本的具体操作可参考补丁目录下的安装教程视频)  
 4. 运行游戏  
@@ -47,19 +54,12 @@ tag:
 阿里云盘: [https://www.alipan.com/s/CcdrgDtnr1j](https://www.alipan.com/s/CcdrgDtnr1j)  
 天翼云盘: [https://cloud.189.cn/web/share?code=jYr2aeNnYBBv 访问码: ltj4](https://cloud.189.cn/web/share?code=jYr2aeNnYBBv)   
 百度网盘: [https://pan.baidu.com/s/16PCN3kTLuPOunkX3h2_tug 提取码: 2333](https://pan.baidu.com/s/16PCN3kTLuPOunkX3h2_tug?pwd=2333)  
+中文 Steam 背景与徽标 (非必要): [Steam_Library_Ep02.zip](https://cdn.iycx.top/blog/2024/04/Steam_Library_Ep02.zip)  
 
 ## 常见问题
 ### 如何使用汉化补丁?
 将补丁解压后放置在游戏目录下, 运行并按照提示操作就可以了.  
 其他系统请参照压缩包根目录下 ReadMe 文件.  
-### 关于补丁之后的更新/BUG 修复?
-目前的 1.0 测试版, 热更新及其他功能只有在 07th-mod 版本的补丁上实装.  
-原版和附加补丁版的功能将在后续考虑添加, 并且不会有较大的更新.  
-另外在测试时发现 07th-mod 版本的补丁有部分 BUG, 具体症状如下:  
-考虑到兼容性, 我将汉化的脚本文件放在了 CompiledChineseScripts 目录中.  
-这样做的好处就是可以独立加载汉化文件, 并且不用考虑 Update 目录下未编译的脚本文件覆盖.  
-但是不知道为什么, 如果删除了 Update 目录下的文件, 程序就会进入检查更新的死循环.  
-后续会跟踪下, 并和其他两个版本的补丁一起更新, 如果遇到这个问题, 重新覆盖下 Update 目录里的脚本就可以了.  
 ### 好辣鸡! 我不想使用这个补丁了怎么办?
 直接使用 Steam 检查游戏完整性 / 重新安装就可以了.  
 ### 有一些对话很奇怪, 能修改吗? / 我发现了 BUG!
