@@ -57,11 +57,47 @@ order: 1
 
 @tab Windows/Linux
 
-::: caution [已修复] Linux 用户：使用窗口模式会导致游戏或 GNOME/MATE 桌面崩溃
+::: caution 注意
 
-**注意：我们已经在 2022 年 11 月 13 日的更新中修复了这个问题。如果在最新版的补丁上仍然会崩溃，请联系我们。**
+**我们已经在 2022 年 11 月 13 日的更新中修复了这个问题。如果在最新版的补丁上仍然会崩溃，请联系我们。**
+
+::: details [已修复] Linux 用户：使用窗口模式会导致游戏或 GNOME/MATE 桌面崩溃
+
+----
+
+#### 复现问题
+
+这个问题会在以下情况被复现：
+- 从全屏幕模式切到窗口模式
+- 游戏以窗口模式启动
+- 拖动游戏窗口
+
+如果始终以全屏幕模式进行游戏，那应该都不会出现这个问题。
+
+这个问题似乎只会影响到第三章到第六章，尽管理论上在第一章和第二章也会出现，甚至在原版游戏上也会发生这个问题。
+
+不是所有的桌面环境都会出现问题，不过已知 GNOME 桌面环境会受到影响。
+
+#### 问题症状
+
+当错误发生时，游戏窗口将会变得非常大或者非常小，并且整个屏幕将变为黑色或蓝色。
+
+错误发生之后，游戏可能会卡死、崩溃，甚至会让你的桌面环境崩溃。
+
+#### 引发问题的原因
+
+这个问题是由于 Unity 引擎 ≤ `5.5.3p3` 版本的调整窗口大小函数损坏，此函数会发送未初始化的栈数据给 `XSetWMNormalHints`。
+
+想了解更多信息，请阅读以下文章：
+
+- [Merged PR: Fix Unity killing window managers with insane window size](https://github.com/07th-mod/higurashi-assembly/pull/93)
+
+- [Draft PR: Linux gnome crash workaround](https://github.com/07th-mod/higurashi-assembly/pull/91)
+
+- [Issue: Linux GNOME desktop environment crash / corrupted configuration file issue](https://github.com/07th-mod/higurashi-patch-compiler/issues/58)
 
 :::
+
 
 1. 找到并打开游戏根目录
 
