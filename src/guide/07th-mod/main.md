@@ -7,7 +7,7 @@ tag:
   - 07th-mod
   - 安装指南
 article: false
-order: 1
+order: 2
 ---
 
 ::: caution 阅读前请注意！

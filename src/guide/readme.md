@@ -6,6 +6,8 @@ index: false
 ---
 ## [07th-mod 补丁](07th-mod/readme.md)
 
+- [补丁介绍](07th-mod/introduction.md)
+
 - [安装指南](07th-mod/main.md)
 
 - [快捷键和设置说明](07th-mod/shortcuts.md)

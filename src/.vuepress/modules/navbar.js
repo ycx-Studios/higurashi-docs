@@ -22,12 +22,13 @@ export default navbar([
       icon: "cube",
       prefix: "07th-mod/",
       children: [
-          { text: "安装指南", link: "main", icon: "file-arrow-down" },
-          { text: "快捷键和设置说明", link: "shortcuts", icon: "gears" },
-          { text: "常见问题解答", link: "faq", icon: "circle-question" },
-          { text: "常见问题解答 - Linux 和 Steam Deck", link: "faq-linux-steam-deck", icon: "circle-question" },
-          { text: "常见问题解答 - 背景音乐与音效", link: "faq-bgm-se", icon: "circle-question" },
-          { text: "游戏及 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
+        { text: "补丁介绍", link: "introduction", icon: "circle-info" },
+        { text: "安装指南", link: "main", icon: "file-arrow-down" },
+        { text: "快捷键和设置说明", link: "shortcuts", icon: "gears" },
+        { text: "常见问题解答", link: "faq", icon: "circle-question" },
+        { text: "常见问题解答 - Linux 和 Steam Deck", link: "faq-linux-steam-deck", icon: "circle-question" },
+        { text: "常见问题解答 - 背景音乐与音效", link: "faq-bgm-se", icon: "circle-question" },
+        { text: "游戏及 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
       ]
     }, ]
   },

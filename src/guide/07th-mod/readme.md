@@ -6,6 +6,8 @@ index: false
 ---
 ## 07th-mod 补丁使用指南
 
+- [补丁介绍](introduction.md)
+
 - [安装指南](main.md)
 
 - [快捷键和设置说明](shortcuts.md)
