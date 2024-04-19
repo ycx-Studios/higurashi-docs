@@ -20,7 +20,7 @@ order: 3
 
 如果你安装了新的 DLL (2021 年之后的版本)，你可以使用比较 “现代化” 的 Mod 菜单来更改设置。
 
-![](https://cdn.iycx.top/higurashi/guide/6.jpg)  
+![](https://cdn.iycx.top/higurashi/guide/mod_menu.jpg)  
 
 按下 `F10` 打开菜单，或者在设置界面点击 “Mod 菜单”。
 

@@ -16,15 +16,37 @@ order: 1
 
 :::
 
-07th-mod 补丁将《寒蝉鸣泣之时》的任天堂 Switch 版本移植到由 MangaGamer 发布的最新版本游戏。这个补丁兼容 [Steam 版本](https://store.steampowered.com/bundle/709/)，以及任意 [无 DRM 版本](https://www.mangagamer.com/product_list.php?opt=search&keyword=Higurashi) (包括 GOG) 的游戏。
+07th-mod 补丁将《寒蝉鸣泣之时》的任天堂 Switch 版本移植到由 MangaGamer 发布的最新版本游戏。这个补丁兼容 [Steam 版本](https://store.steampowered.com/bundle/709/)，以及任意 [无 DRM 版本](https://www.mangagamer.com/product_list.php?opt=search&keyword=Higurashi) (包括 GOG 版) 的游戏。
 
-**本补丁不兼容旧版/日文原始版本的游戏**
+**本补丁不兼容旧版/日文原始版本的游戏！**
 
 ## 补丁的功能
 
-### 截图
+### 预览图
 
-待更新
+:::: tabs
+
+@tab 主机版预设
+
+![](https://cdn.iycx.top/higurashi/guide/console.jpg)
+
+@tab Steam 版预设
+
+![](https://cdn.iycx.top/higurashi/guide/steam.jpg)
+
+@tab 原版预设
+
+![](https://cdn.iycx.top/higurashi/guide/vanilla.jpg)
+
+@tab 立绘选项
+
+![](https://cdn.iycx.top/higurashi/guide/sprite-comparison.jpg)
+
+@tab 背景选项
+
+![](https://cdn.iycx.top/higurashi/guide/background-comparison.jpg)
+
+::::
 
 ### 功能列表
 
@@ -45,13 +67,19 @@ order: 1
 
 ## 主机版游戏分支 (额外的章节)
 
-待更新
+主机版游戏分支是《寒蝉鸣泣之时》为主机版本的游戏特别制作的独占章节。这些章节的故事并非由原作者龙骑士 07 撰写，而是为游戏中某些事件以及一些和主线剧情完全无关的故事提供了其他视角。主机版游戏分支尚未发售使用 PC 端游戏的版本，所以使用我们的 Mod 是在电脑上玩到它的唯一方法。
+
+主机版游戏分支补丁由 07th-mod 的制作人员自行移植与翻译到英文。这些内容在《寒蝉鸣泣之时》的 PC 版上并不可用（已发布日文版本，由 MangaGamer 负责英化制作）。
+
+对于想获取关于《宵越篇》不同选项区别和剧情走向的玩家，这里有一篇 [攻略](https://07th-mod.com/wiki/Higurashi/img/walk-yoig.webp)。同样的，澪尽篇・表也提供了 [攻略](https://07th-mod.com/wiki/Higurashi/img/walk-omot.webp)。
+
+![](https://cdn.iycx.top/higurashi/guide/flow.jpg)
 
 ## 完整版补丁与仅语音补丁
 
 一般来说，完整版补丁应该是首选。但实际上，对于主线剧情有两个版本的补丁：
 
-- 完整版补丁拥有上面介绍的所有功能
+- 完整版补丁：拥有上面介绍的所有功能
 
-- 仅语音补丁**已停止更新**
+- 仅语音补丁：**已停止更新**
     - 在完整版补丁开发完成之前，仅语音补丁是作为替代版本使用的。当完整版补丁发布后，就没有理由使用仅语音补丁了。

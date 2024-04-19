@@ -213,7 +213,7 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 
 想解决这个问题，你需要在设备管理器中禁用 (或者卸载?) 驱动程序，位于`设备管理器`→`系统设备`→`FrescoLogic 代理显示适配器`，如下图所示：
 
-![](https://cdn.iycx.top/higurashi/guide/7.jpg)  
+![](https://cdn.iycx.top/higurashi/guide/device-manager-frescologic-driver.jpg)  
 
 ## 已知问题 - 手动安装
 
