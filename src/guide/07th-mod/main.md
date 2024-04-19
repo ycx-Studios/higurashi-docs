@@ -10,6 +10,12 @@ article: false
 order: 2
 ---
 
+::: tip 本文译自 07th-mod 官网
+
+如需阅读原文，请点击[这里](https://07th-mod.com/wiki/Higurashi/Manual-Installation/)。
+
+:::
+
 ::: caution 阅读前请注意！
 
 本文只介绍如何从 07th-mod 官网下载并安装高清语音补丁，并不包含本汉化补丁的安装教程。
@@ -18,7 +24,13 @@ order: 2
 
 :::
 
-::: tip 如何解压 .7z 压缩包？
+::: warning 多当心旧的存档！
+
+由旧版本补丁或是原版游戏保存的存档可能无法与新版的补丁正常工作。虽然有时候看起来可能很正常，但加载后最终肯定会遇到问题。我们的建议是从头开始游戏，或者使用 “章节跳跃” 功能跳转到之前玩到的章节。也可以通过按 `Ctrl` 键跳过阅读过的文本。
+
+:::
+
+::: info 如何解压 .7z 压缩包？
 
 - Windows：下载 [7-zip](https://7-zip.org/)、[Bandizip](https://www.bandisoft.com/bandizip/)、[WinRAR](https://www.win-rar.com/start.html?&L=7)等解压软件
 

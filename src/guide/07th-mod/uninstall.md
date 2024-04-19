@@ -97,7 +97,7 @@ Windows 会将这些 PlayerPrefs 存储到注册表的 `Computer\HKEY_CURRENT_US
 
 @tab Linux
 
-::: caution 注意
+::: warning
 
 寒蝉鸣泣之时可能会使用 `Manga**g**amer` (小写的 g) 而不是 `MangaGamer` (大写的 g) 作为文件夹。如果你找不到 PlayerPrefs 的话，请都找找这两个文件夹是否存在。
 
@@ -111,7 +111,7 @@ Linux 的 PlayerPrefs 存储在 `~/.config/unity3d/MangaGamer/[GAMENAME]/prefs` 
 
 @tab MacOS
 
-::: caution 注意
+::: warning
 
 以下内容尚未得到验证，因为 07th-mod 没有 MacOS 系统可供测试。如果你有的话，可以向他们提供反馈。
 
@@ -125,7 +125,7 @@ MacOS 的 PlayerPrefs 存储在 `~/Library/Preferences` 目录的 `.plist` 文�
 
 @tab Proton / Wine
 
-::: caution Steam 云同步
+::: warning Steam 云同步
 
 不是很确定是否准确，在使用 Proton 的时候，PlayerPrefs 文件可能不会同步到云。如果按照下面的方式操作没有效果的话，可以试试清理或关闭 Steam 云同步。
 
