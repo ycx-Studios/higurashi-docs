@@ -22,7 +22,7 @@ order: 4
 
 ## 我的问题在这里找不到怎么办？
 
-汉化补丁问题请联系我们，Mod 本身问题请[在此页面](https://07th-mod.com/wiki/Higurashi/support/)联系07th-mod
+汉化补丁问题请联系我们，Mod 本身问题请[在此页面 (英文)](https://07th-mod.com/wiki/Higurashi/support/)联系07th-mod
 
 **※ 以下的 “我们” 如无特殊说明，均指 07th-mod**
 
@@ -50,7 +50,7 @@ order: 4
 
 #### 解决方案的原理
 
-多个网络适配器同时启用时可能会干扰《寒蝉鸣泣之时》游戏 Unity 引擎的资源加载。在这个页面可查看详细说明：[Unity may try to access the wrong network adapter](https://answers.unity.com/questions/623448/www-class-for-loading-local-texture-is-very-slow.html)。也有可能是其它网络问题造成的卡顿。
+多个网络适配器同时启用时可能会干扰《寒蝉鸣泣之时》游戏 Unity 引擎的资源加载。在这个页面可查看详细说明：[Unity may try to access the wrong network adapter (英文)](https://answers.unity.com/questions/623448/www-class-for-loading-local-texture-is-very-slow.html)。也有可能是其它网络问题造成的卡顿。
 
 至于为什么最好装在固态硬盘上，机械硬盘的磁盘碎片太多或者空间不够会导致加载资源的时候速度变得很慢，因此我们推荐安装在固态硬盘上。
 
@@ -72,9 +72,9 @@ order: 4
 
 - 等个一两分钟，看看游戏会不会自行恢复。如果没有效果，请看下一步。
 
-- 按照 [Higurashi Support](https://07th-mod.com/wiki/Higurashi/support/) 页面的说明找到名为 `output_log.txt` 或 `output_log.txt` 的游戏日志。
+- 按照 [Higurashi Support (英文)](https://07th-mod.com/wiki/Higurashi/support/) 页面的说明找到名为 `output_log.txt` 或 `output_log.txt` 的游戏日志。
 
-- 在 [Discord 服务器](https://07th-mod.com/wiki/Higurashi/support/) 中的 `#higu_support` 频道将游戏日志提交给我们。
+- 在 [Discord 服务器 (英文)](https://07th-mod.com/wiki/Higurashi/support/) 中的 `#higu_support` 频道将游戏日志提交给我们。
 
 #### **我的游戏以前可以运行，但是现在卡在黑屏/存档损坏问题**
 
@@ -90,15 +90,13 @@ Exception: System.IndexOutOfRangeException: Array index is out of range.
 
 如果与你的情况一致，**请首先禁用 Steam 云同步/GOG 云存档**，然后尝试删除日志中提到的存档文件 (或者移动文件让游戏找不到)。
 
-你可以用 Mod 选项菜单 (如果能用的话) 来找到日志和存档文件，或者查看指南的[删除存档](uninstall.md#%E5%88%A0%E9%99%A4%E5%AD%98%E6%A1%A3)了解详细说明。
+你可以用 Mod 选项菜单 (如果能用的话) 来找到日志和存档文件，或者查看指南的[删除存档](uninstall.md#%E5%88%A0%E9%99%A4%E5%AD%98%E6%A1%A3)部分了解详细说明。
 
 #### **在 Windows 系统更新或者显卡驱动更新之后随机出现黑屏的现象，或在日志中出现 "IndexOutOfRangeException" 字段**
 
 如果你遇到了黑屏，而且游戏日志里出现了 `IndexOutOfRangeException: Array index is out of range. at UnityEngine.Display.RecreateDisplayList (System.IntPtr[] nativeDisplay) [0x00000] in <filename unknown>:0`，那么你很有可能遇到了这个问题。
 
-这个问题会影响所有 Unity 引擎的游戏，不仅仅只有《寒蝉鸣泣之时》，而且与显卡控制面板中的纵横比选项有关。在
-[这个 Steam 论坛帖子](https://steamcommunity.com/discussions/forum/1/1480982971174752598/)
-中查看二楼的回复，以得知如何在英伟达控制面板 (或是英特尔、AMD 的控制面板) 中解决这个问题。
+这个问题会影响所有 Unity 引擎的游戏，不仅仅只影响《寒蝉鸣泣之时》，而且与显卡控制面板中的纵横比选项有关。在[这个 Steam 论坛帖子 (英文)](https://steamcommunity.com/discussions/forum/1/1480982971174752598/)中查看二楼的回复，以得知如何在英伟达控制面板 (或是英特尔、AMD 的控制面板) 中解决这个问题。
 
 ### 存档兼容性问题/我的存档更新后不能用了
 
@@ -168,7 +166,7 @@ Exception: System.IndexOutOfRangeException: Array index is out of range.
 2. 还有玩家的游戏路径中有 `#`，这肯定会导致游戏除了开场动画视频之外所有声音无法播放。请确保游戏路径中没有包含任何特殊字符。
     - 如果你需要移动或更改 Steam 游戏的安装位置，请查看：[移动 Steam 安装文件和游戏](https://help.steampowered.com/zh-cn/faqs/view/4BD4-4528-6B2E-8327)。
 
-3. 我们也收到过下述问题报告，但可能只是巧合：
+3. 我们也收到过下述问题的报告，但可能只是巧合：
     - 其中一位用户通过清空注册表解决了这个问题，但请将此作为最后的修复措施。请参考本页面底部的 “注册表文件位置与如何清空” 了解如何执行操作。
 
 #### **完全没有声音**
@@ -195,11 +193,11 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 
 目前我们也没有能解决这个问题的办法，唯一的办法就是在查看菜单的时候小心点别滚到滚轮，慢慢操作 (点击选项前等待画面淡入淡出结束)。
 
-想了解更多信息，可以查看[这个 Github 问题](https://github.com/07th-mod/higurashi-assembly/issues/60)。
+想了解更多信息，可以查看[这个 Github 问题 (英文)](https://github.com/07th-mod/higurashi-assembly/issues/60)。
 
 ### 无法存档/阅读 Tips 时无法点击保存按钮
 
-请检查你是否正在阅读 Tips。当在阅读 Tips 部分时，[游戏将不允许进行存档/快速保存/读档/快读读档](https://github.com/07th-mod/tatarigoroshi/issues/74#issuecomment-578990330)。
+请检查你是否正在阅读 Tips。当在阅读 Tips 部分时，[游戏将不允许进行存档/快速保存/读档/快读读档 (英文)](https://github.com/07th-mod/tatarigoroshi/issues/74#issuecomment-578990330)。
 
 ### Steam 成就无法解锁
 
@@ -209,9 +207,9 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 
 ### 游戏启动时显示白屏，随后游戏崩溃。崩溃日志里包含了 `lci_proxyumd32.dll caused a Breakpoint` 错误
 
-如果你正在使用 USB 转 HDMI 转接器，或是加载了由 Fresco Logic 提供的驱动程序，则会导致这个问题。可以查看这个 [空洞骑士的帖子](https://steamcommunity.com/app/367520/discussions/0/1700541698692038649/) 了解详细信息。
+如果你正在使用 USB 转 HDMI 转接器，或是加载了由 Fresco Logic 提供的驱动程序，则会导致这个问题。可以查看这个 [空洞骑士的帖子 (英文)](https://steamcommunity.com/app/367520/discussions/0/1700541698692038649/) 了解详细信息。
 
-想解决这个问题，你需要在设备管理器中禁用 (或者卸载?) 驱动程序，位于`设备管理器`→`系统设备`→`FrescoLogic 代理显示适配器`，如下图所示：
+想解决这个问题，你需要在设备管理器中禁用 (或者卸载?) 驱动程序，位于`设备管理器`→`系统设备`→`FrescoLogic 代理显示适配器` / `FrescoLogic Proxy Display Adapter`，如下图所示：
 
 ![](https://cdn.iycx.top/higurashi/guide/device-manager-frescologic-driver.jpg)  
 
@@ -219,7 +217,7 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 
 ### 游戏崩溃
 
-经常会有人下载了最新的语音补丁却忘记升级图像补丁。如果图像补丁是旧版的，那么当游戏运行到要打开一个不存在的文件时游戏就会崩溃。栗子：游戏尝试打开一张不存在于 `CG` 文件夹的图片。
+经常会有人下载了最新的语音补丁却忘记升级图像补丁。如果图像补丁是旧版的没有更新，那么当游戏运行到要打开一个不存在的文件时游戏就会崩溃。栗子：游戏尝试打开一张不存在于 `CG` 文件夹的图片。
 
 ### 游戏已经是最新的，但是一些声音无法播放或者图像加载不出来！
 
@@ -232,7 +230,7 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 - 关闭**所有**在后台运行的程序，即使那些看起来 “没问题” 的也要关闭
 - 如果游戏安装在机械硬盘，请移动到固态硬盘。同时也可以检查下硬盘的状态是否正常，长时间的文件查找会造成加载资源时游戏卡住。
 - 回想下最近电脑是否做过什么更改 (如果游戏以前可以运行的话)。比如说 Windows 系统更新、驱动更新、硬件上的改动、安装了新程序、更改了杀毒软件设置……
-- 如果是语音播放中出现卡顿，[看这个已知问题](#语音在游戏中播放时出现卡顿)
+- 如果是语音播放中出现卡顿，[查看这个已知问题](#语音在游戏中播放时出现卡顿)
 - 重启电脑
 - 虽然《寒蝉鸣泣之时》对电脑的配置要求并不高，但是太老的电脑或者系统玩起来表现并不好。请记住，这是一个 Unity 引擎的游戏，性能稍高的配置还是有必要的。
 
@@ -244,19 +242,19 @@ Windows 有允许你为每个软件单独设置音量的功能，这可能导致
 
 这个问题只会出现在所有的 Mod 菜单 (例如 F10 菜单)，即菜单不会显示文字，并且不会影响到正常游戏。
 
-想解决这个问题，你需要将 `corefonts` 字体包安装到 wineprefix 中。各个系统安装 `corefonts` 的方式可能不同，所以你可能需要自行查找下安装方法。07th-mod 网站上提供了一些截图，可能会提供帮助，[点击查看](https://07th-mod.com/wiki/Higurashi/FAQ/#wine-users-only-no-text-on-startup-missing-corefonts)。
+想解决这个问题，你需要将 `corefonts` 字体包安装到 wineprefix 中。各个系统安装 `corefonts` 的方式可能不同，所以你可能需要自行查找下安装方法。07th-mod 网站上提供了一些截图，可能会提供帮助，[点击查看 (英文)](https://07th-mod.com/wiki/Higurashi/FAQ/#wine-users-only-no-text-on-startup-missing-corefonts)。
 
 ## 其他问题
 
 ### 有仅语音补丁吗 (没有 PS3 立绘)？
 
-有的，但是可能是非官方的 (鬼隐篇)，太旧了 (棉流篇)，或者不再提供支持 (所有篇章)。所以不要向我们反馈任何有关仅语音补丁的问题。要知道这个补丁不支持很多特性。最完善的版本是语音和图像补丁。你可以在[这个页面](https://07th-mod.com/wiki/Higurashi/Higurashi-Part-1.1---Voices-only-Patch/)找到仅语音补丁。
+有的，但是可能是非官方的 (鬼隐篇)，太旧了 (棉流篇)，或者不再提供支持 (所有篇章)。所以不要向我们反馈任何有关仅语音补丁的问题。要知道这个补丁不支持很多特性。最完善的版本是语音和图像补丁。你可以在[这个页面 (英文)](https://07th-mod.com/wiki/Higurashi/Higurashi-Part-1.1---Voices-only-Patch/)找到仅语音补丁。
 
 ### 啥是 “OST 重制” 选项？
 
-OST 重制是在四月补丁之前就开始的一个项目，包含对几首原版 (2019 年之前) 音乐的民间重制 - [点此试听](https://radiataalice.bandcamp.com/album/hinamizawa-syndrome-vol-1)
+OST 重制是在四月补丁之前就开始的一个项目，包含对几首原版 (2019 年之前) 音乐的民间重制，[点击这里去 BandCamp 试听](https://radiataalice.bandcamp.com/album/hinamizawa-syndrome-vol-1)
 
-这个补丁更多地是作为副项目来开发，试图用现代乐器改进最初的 1999 年版的 midi 配乐，并修复 Steam 版配乐的剪辑和失真问题。
+这个补丁更多地是作为子项目来开发，试图用现代乐器改进最初的 1999 年版的 midi 配乐，并修复 Steam 版配乐的剪辑和失真问题。
 
 ## 存档文件位置
 
@@ -327,7 +325,7 @@ OST 重制是在四月补丁之前就开始的一个项目，包含对几首原�
 
 ## 我有关于主机版澪尽篇的问题
 
-见 [澪尽篇常见问题解答](https://07th-mod.com/wiki/Higurashi/MiotsukushiFAQ/) (未翻译)
+见 [澪尽篇常见问题解答 (英文)](https://07th-mod.com/wiki/Higurashi/MiotsukushiFAQ/)
 
 ## 我有关于音乐和音效变更/四月更新的问题
 

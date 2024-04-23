@@ -16,7 +16,7 @@ order: 1
 
 :::
 
-07th-mod 补丁将《寒蝉鸣泣之时》的任天堂 Switch 版本移植到由 MangaGamer 发布的最新版本游戏。这个补丁兼容 [Steam 版本](https://store.steampowered.com/bundle/709/)，以及任意 [无 DRM 版本](https://www.mangagamer.com/product_list.php?opt=search&keyword=Higurashi) (包括 GOG 版) 的游戏。
+07th-mod 补丁将《寒蝉鸣泣之时》的任天堂 Switch 版本移植到由 MangaGamer 发布的最新版本游戏。这个补丁兼容 [Steam 版本](https://store.steampowered.com/bundle/709/)，以及任意 [无 DRM 版本 (英文)](https://www.mangagamer.com/product_list.php?opt=search&keyword=Higurashi) (包括 GOG 版) 的游戏。
 
 **本补丁不兼容旧版/日文原始版本的游戏！**
 
@@ -71,7 +71,7 @@ order: 1
 
 主机版游戏分支补丁由 07th-mod 的制作人员自行移植与翻译到英文。这些内容在《寒蝉鸣泣之时》的 PC 版上并不可用 (已发布日文版本，由 MangaGamer 负责英文化制作)。
 
-对于想获取关于《宵越篇》不同选项区别和剧情走向的玩家，这里有一篇 [攻略](https://07th-mod.com/wiki/Higurashi/img/walk-yoig.webp)。同样的，澪尽篇・表也提供了 [攻略](https://07th-mod.com/wiki/Higurashi/img/walk-omot.webp)。
+对于想获取关于《宵越篇》不同选项区别和剧情走向的玩家，这里有一篇 [攻略 (英文)](https://07th-mod.com/wiki/Higurashi/img/walk-yoig.webp)。同样的，澪尽篇・表也提供了 [攻略 (英文)](https://07th-mod.com/wiki/Higurashi/img/walk-omot.webp)。
 
 ![](https://cdn.iycx.top/higurashi/guide/flow.jpg)
 

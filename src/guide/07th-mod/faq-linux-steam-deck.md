@@ -24,7 +24,7 @@ order: 5
 
 ### 完全没有声音
 
-Steam Deck 上有一种将指定应用程序静音的方法，比如说这篇 Reddit 帖子 [No Sound Fix](https://www.reddit.com/r/SteamDeck/comments/thy8c9/no_sound_fix/) 中所提到的
+Steam Deck 上有一种将指定应用程序静音的方法，比如说这篇 Reddit 帖子 [No Sound Fix (英文)](https://www.reddit.com/r/SteamDeck/comments/thy8c9/no_sound_fix/) 中所提到的：
 
 ```
 tldr: 游戏可能会被意外地静音。在桌面模式下重新启动游戏，然后进入音频设置中的应用程序选项卡，找到并取消静音。
@@ -52,7 +52,7 @@ tldr: 游戏可能会被意外地静音。在桌面模式下重新启动游戏�
 
 - 要修复这个问题：
     - 关闭 compositor
-    - 用 `--no-argb` 的变量启动桌面管理器 ([更多信息在此，虽然和这个问题不完全一样](https://github.com/awesomeWM/awesome/issues/2502))
+    - 用 `--no-argb` 的变量启动桌面管理器 ([更多信息在此，虽然和这个问题不完全一样 (英文)](https://github.com/awesomeWM/awesome/issues/2502))
 
 ### 游戏之前在窗口模式的时候可以正常玩，切到全屏幕后立即崩溃，并且无法重置到窗口模式
 
@@ -97,10 +97,10 @@ tldr: 游戏可能会被意外地静音。在桌面模式下重新启动游戏�
 
 想了解更多信息，请阅读以下文章：
 
-- [Merged PR: Fix Unity killing window managers with insane window size](https://github.com/07th-mod/higurashi-assembly/pull/93)
+- [Merged PR: Fix Unity killing window managers with insane window size (英文)](https://github.com/07th-mod/higurashi-assembly/pull/93)
 
-- [Draft PR: Linux gnome crash workaround](https://github.com/07th-mod/higurashi-assembly/pull/91)
+- [Draft PR: Linux gnome crash workaround (英文)](https://github.com/07th-mod/higurashi-assembly/pull/91)
 
-- [Issue: Linux GNOME desktop environment crash / corrupted configuration file issue](https://github.com/07th-mod/higurashi-patch-compiler/issues/58)
+- [Issue: Linux GNOME desktop environment crash / corrupted configuration file issue (英文)](https://github.com/07th-mod/higurashi-patch-compiler/issues/58)
 
 :::

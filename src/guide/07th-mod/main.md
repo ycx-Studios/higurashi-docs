@@ -36,7 +36,7 @@ order: 2
 
 - Linux：在包管理器中安装 `p7zip`
 
-- Mac：下载 [Keka](https://www.keka.io/)
+- Mac：下载 [Keka](https://www.keka.io/zh-cn/)
 
 :::
 ## 准备工作
@@ -102,11 +102,11 @@ order: 2
 
 想了解更多信息，请阅读以下文章：
 
-- [Merged PR: Fix Unity killing window managers with insane window size](https://github.com/07th-mod/higurashi-assembly/pull/93)
+- [Merged PR: Fix Unity killing window managers with insane window size (英文)](https://github.com/07th-mod/higurashi-assembly/pull/93)
 
-- [Draft PR: Linux gnome crash workaround](https://github.com/07th-mod/higurashi-assembly/pull/91)
+- [Draft PR: Linux gnome crash workaround (英文)](https://github.com/07th-mod/higurashi-assembly/pull/91)
 
-- [Issue: Linux GNOME desktop environment crash / corrupted configuration file issue](https://github.com/07th-mod/higurashi-patch-compiler/issues/58)
+- [Issue: Linux GNOME desktop environment crash / corrupted configuration file issue (英文)](https://github.com/07th-mod/higurashi-patch-compiler/issues/58)
 
 :::
 
@@ -201,7 +201,27 @@ order: 2
 
 5. 完成后，应该会生成一个 `HigurashiEp0X_Data` 文件夹 (`X` 是游戏篇章的编号)，完整路径应该是 `Resources/Data/HigurashiEp0X_Data`。
 
-6. 在 `Resources/Data` 文件夹下打开终端窗口，输入 `rsync -avP HigurashiEp*/* .` 并按下回车。等待文件复制完成。如果不知道如何操作，可以访问[这篇文章](https://stackoverflow.com/a/7054045)。
+6. 在 `Resources/Data` 文件夹下打开终端窗口，输入 `rsync -avP HigurashiEp*/* .` 并按下回车。等待文件复制完成。如果不知道如何操作，可以查看下方的教程，或者访问[这篇文章 (英文)](https://stackoverflow.com/a/7054045)。
+
+::: details 启用 “在当前位置打开终端” 功能并执行命令的图文教程
+
+1. 进入 `键盘快捷键` 的 `服务` 分类，此处有两种操作方法：
+
+- 点击位于屏幕顶部的 “访达” 菜单栏，选择 `服务`→`服务设置…`。  
+
+- 进入 `系统设置`，找到在菜单栏最底部的 `键盘`，选择 `键盘快捷键`，然后再选择 `服务`。
+
+2. 在 `服务` 窗口中展开 `文件和文件夹`，勾选上 `新建位于文件夹位置的终端标签页/窗口` (可以只勾选其中一个，也可以都勾选上)，然后点击完成。
+
+![](https://cdn.iycx.top/higurashi/guide/install-mac-1.png)  
+
+3. 回到 `Resources/Data` 文件夹，右键点击 `Data` 文件夹，选择 `服务`→`新建位于文件夹位置的终端标签页/窗口` (两个选项都可以)。
+
+![](https://cdn.iycx.top/higurashi/guide/install-mac-2.png)  
+
+4. 打开的终端应该会显示 `用户名@主机名 Data % █`，输入 `rsync -avP HigurashiEp*/* .` 并按下回车键，等待命令执行结束即可。
+
+:::
 
 7. 解压 BGM & SE 压缩包到 `Resources/Data/StreamingAssets` 文件夹下。
 

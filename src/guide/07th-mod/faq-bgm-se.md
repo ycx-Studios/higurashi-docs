@@ -32,7 +32,7 @@ order: 6
 想了解更多信息：
 
 - 有一个专门的表格，里面介绍了 Mod 用到的每个背景音乐的名称：
-    - [寒蝉音乐变动表 (需翻墙)](https://docs.google.com/spreadsheets/d/1c4Ou9ssNuTAsxJozD0nnc-fzfaIwAdk30F2JhhQGmw4/edit?usp=sharing)
+    - [寒蝉音乐变动表 (英文/需翻墙)](https://docs.google.com/spreadsheets/d/1c4Ou9ssNuTAsxJozD0nnc-fzfaIwAdk30F2JhhQGmw4/edit?usp=sharing)
     - **请注意，这个表格里面的内容是自动生成的，可能有的地方存在问题**
     - 表格的第一张工作簿有详细介绍
 - 请搜索 “April Update Higurashi” 寻找更多关于四月更新的论坛帖子
@@ -249,7 +249,7 @@ Nerve 的音乐是以 MIDI 格式发布的，需要转换成 wav 文件才能在
 
 ## 其他链接
 
-- [BGM & SE Issues Index](https://github.com/07th-mod/higurashi-patch-compiler/issues/64) 列出了 Github 上有关背景音乐与音效的问题。
+- [背景音乐与音效问题列表 (英文)](https://github.com/07th-mod/higurashi-patch-compiler/issues/64) 列出了 Github 上有关背景音乐与音效的问题。
 
     - 如果你正在寻找和背景音乐与音效相关尚未解决的问题，或者想查看某些内容更改的历史记录，那你就找对地方了。
 
