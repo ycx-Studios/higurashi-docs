@@ -275,7 +275,7 @@ Nerve 的音乐是以 MIDI 格式发布的，需要转换成 wav 文件才能在
 
 被替换的曲目如下：
 
-- Tell a thing (钢琴独奏版.)
+- [Tell a thing (钢琴独奏版.)](https://www.bilibili.com/video/av953902205/?p=91)
 - [Snow #3 'First snow'](https://www.bilibili.com/video/av953902205/?p=34)
 - [Days of Children #3](https://www.bilibili.com/video/av953902205/?p=36)
 - [Rainy Days](https://www.bilibili.com/video/av953902205/?p=33)
