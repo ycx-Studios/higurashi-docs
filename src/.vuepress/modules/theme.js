@@ -14,7 +14,14 @@ export default hopeTheme({
   logo: "https://cdn.iycx.top/higurashi/mologo.png",
   hostname: "https://higurashi.ycx-studios.site",
   favicon: "https://cdn.iycx.top/favicon.ico",
-  iconAssets: "fontawesome-with-brands",
+  
+  iconAssets: [
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/js/brands.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/js/solid.min.js"
+  ],
+  iconPrefix: "fas fa-",
+  
   fullscreen: true,
   
   author: {
