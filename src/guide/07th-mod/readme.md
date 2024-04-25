@@ -14,8 +14,8 @@ index: false
 
 - [常见问题解答](faq.md)
 
-- [常见问题解答 - Linux 和 Steam Deck](faq-linux-steam-deck.md)
+    - [Linux 和 Steam Deck](faq-linux-steam-deck.md)
 
-- [常见问题解答 - 背景音乐与音效](faq-bgm-se.md)
+    - [背景音乐与音效](faq-bgm-se.md)
 
 - [游戏及 Mod 卸载指南](uninstall.md)

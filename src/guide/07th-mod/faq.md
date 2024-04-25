@@ -72,7 +72,7 @@ order: 4
 
 - 等个一两分钟，看看游戏会不会自行恢复。如果没有效果，请继续看下一步。
 
-- 按照 [Higurashi Support (英文)](https://07th-mod.com/wiki/Higurashi/support/) 页面的说明找到名为 `output_log.txt` 或 `output_log.txt` 的游戏日志。
+- 按照[日志文件位置](faq.md#%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE)的说明找到名为 `output_log.txt` 或 `output_log.txt` 的游戏日志。
 
 - 在 [Discord 服务器 (英文)](https://07th-mod.com/wiki/Higurashi/support/) 中的 `#higu_support` 频道将游戏日志提交给我们。
 
@@ -271,7 +271,7 @@ Windows 允许你为每个软件单独设置音量，这个功能可能会导致
 
 ### 自动查找存档位置
 
-进行游戏时，按下 **F10** 键，在 “存档与日志文件” 标签页下点击 “打开存档目录”。
+进行游戏时，按下 **F10** 键，在 “存档文件与日志文件” 标签页下点击 “打开存档目录”。
 
 ### 手动查找存档位置
 
@@ -322,6 +322,26 @@ Windows 允许你为每个软件单独设置音量，这个功能可能会导致
 要清空你的存档数据，先把这些文件备份一下，然后**禁用 Steam 云同步**，最后再全部删除。**Steam 会把存档同步回来**，所以请确保暂时禁用 Steam 云同步，否则存档会重新出现，或是被 Steam 覆盖掉。
 
 游戏还在 PlayerPrefs 中存储了一些与分辨率和全屏幕相关的附加设置，请阅读 [清理 Unity PlayerPrefs](uninstall.md#%E6%B8%85%E7%90%86-unity-playerprefs) 了解更多信息。
+
+## 日志文件位置
+
+::: tip
+
+对于遇到游戏启动或是崩溃问题的玩家，请按以下方式获取**游戏日志文件**。
+
+:::
+
+在 Windows 系统上，文件名为 **output_log.txt**，在 Linux 或 MacOS 系统上，文件名为 **Player.log**。
+
+- 适用于所有系统：打开游戏之后，按 **F10** 键，然后点击 “疑难解答” 标签页，然后在 “存档文件与日志文件” 分类下面点击 “打开 output_log.txt / Player.log 目录” 按钮。
+
+- Windows 系统 (**output_log.txt**)：
+    - 对于《第一章》至《第七章》，日志文件位于游戏目录中 `HigurashiEp0X_Data` 文件夹的根目录下。例如 `C:\games\Steam\steamapps\common\Higurashi When They Cry\HigurashiEp01_Data\output_log.txt`。
+    - 对于《第八章》，日志文件位于 `%appdata%/../LocalLow/Mangagamer/Higurashi When They Cry - Ch.8 Matsuribayashi`。完整路径类似于 `C:\Users\[用户名]\AppData\LocalLow\MangaGamer\Higurashi When They Cry - Ch.8 Matsuribayashi\output_log.txt`
+
+- MacOS 系统 (**Player.log**)：`/Users/<用户名>/Library/Logs/Unity/Player.log`。你可以打开 `访达`，按下快捷键 `Shift-Command-G`，然后粘贴这个地址：`~/Library/Logs/Unity`。
+
+- Linux 系统 (**Player.log**)：`~/.config/unity3d/MangaGamer/Higurashi When They Cry - Ch.5 Meakashi/Player.log` (这是《第五章》的文件位置)。
 
 ## 玩家设置文件位置与清理
 

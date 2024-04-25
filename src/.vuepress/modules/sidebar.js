@@ -18,8 +18,20 @@ export default sidebar([
     text: "使用指南",
     icon: "signs-post",
     prefix: "/guide/",
-    collapsible: true,
-    children: "structure",
+    children: [{
+      text: "07th-mod 补丁",
+      icon: "cube",
+      prefix: "07th-mod/",
+      children: [
+        { text: "补丁介绍", link: "introduction", icon: "circle-info" },
+        { text: "安装指南", link: "main", icon: "file-arrow-down" },
+        { text: "快捷键和设置说明", link: "shortcuts", icon: "gears" },
+        { text: "常见问题解答", link: "faq", icon: "circle-question" },
+        { text: "　- Linux 和 Steam Deck", link: "faq-linux-steam-deck" },
+        { text: "　- 背景音乐与音效", link: "faq-bgm-se" },
+        { text: "游戏及 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
+      ]
+    }]
   },
   {
     text: "下载中心",
@@ -29,5 +41,5 @@ export default sidebar([
       { text: "资源下载站", icon: "file-arrow-down", link: "https://download.chinalcmod.com/Higurashi" }
     ]
   },
-  "about",
+  "about"
 ]);

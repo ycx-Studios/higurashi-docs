@@ -133,7 +133,7 @@ MacOS 的 PlayerPrefs 存储在 `~/Library/Preferences` 目录的 `.plist` 文�
 
 使用 Proton 的时候，PlayerPrefs 存储在 `user.reg` 文件中。
 
-这个文件位于 `.steam/steam/steamapps/compatdata/[GAME_ID]/pfx/user.reg`。`GAME_ID` 可以通过访问 Steam 商店页面，然后查看链接最后的几位数字得到。例如《第一章：鬼隐篇》的 ID 就是 `310360` (https://store.steampowered.com/app/310360)。
+这个文件位于 `.steam/steam/steamapps/compatdata/[游戏 ID]/pfx/user.reg`。`游戏 ID` 可以通过访问 Steam 商店页面，然后查看链接最后的几位数字得到。例如《第一章：鬼隐篇》的 ID 就是 `310360` (https://store.steampowered.com/app/310360)。
 
 你也可以删除 Proton 的 Prefix 文件来清理 PlayerPrefs，但请注意这么做也会把游戏的存档清空。
 
