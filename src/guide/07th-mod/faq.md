@@ -10,6 +10,14 @@ article: false
 order: 4
 ---
 
+::: caution
+
+本文章目前存在问题，会导致浏览器无法渲染页面。
+
+目前正在尝试解决，暂时删除会出现问题的内容，敬请谅解！
+
+:::
+
 ::: tip 本文译自 07th-mod 官网
 
 如需阅读原文，请点击[这里](https://07th-mod.com/wiki/Higurashi/FAQ/)。
@@ -80,13 +88,15 @@ order: 4
 
 有的时候存档文件可能会损坏。虽然游戏之前可以运行，但损坏后会导致游戏卡在黑屏界面。如果是这个原因，那你应该可以在游戏日志的某个地方找到这样的内容:
 
-```
+::: info
+
 Could not read from save file C:\Users\drojf\AppData\Roaming\MangaGamer\higurashi02\save003.dat
 Exception: System.IndexOutOfRangeException: Array index is out of range.
-  at CLZF2.lzf_decompress (System.Byte[] input, System.Byte[]& output) [0x00000]in <filename unknown>:0
-  at CLZF2.Decompress (System.Byte[] inputBytes) [0x00000] in <filename unknown>:0
-  at Assets.Scripts.Core.Buriko.BurikoSaveManager.GetSaveData (Int32 slot, System.String path) [0x00000] in <filename unknown>:0
-```
+  at CLZF2.lzf_decompress (System.Byte[] input, System.Byte[]& output) [0x00000]in ＜filename unknown＞:0
+  at CLZF2.Decompress (System.Byte[] inputBytes) [0x00000] in ＜filename unknown＞:0
+  at Assets.Scripts.Core.Buriko.BurikoSaveManager.GetSaveData (Int32 slot, System.String path) [0x00000] in ＜filename unknown＞:0
+
+:::
 
 如果与你的情况一致，**请首先禁用 Steam 云同步/GOG 云存档**，然后尝试删除日志中提到的存档文件 (或者先把存档文件挪出目录让游戏读不到)。
 

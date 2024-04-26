@@ -10,6 +10,14 @@ article: false
 order: 5
 ---
 
+::: caution
+
+本文章目前存在问题，会导致浏览器无法渲染页面。
+
+目前正在尝试解决，暂时删除会出现问题的内容，敬请谅解！
+
+:::
+
 ::: tip 本文译自 07th-mod 官网
 
 如需阅读原文，请点击[这里](https://07th-mod.com/wiki/Higurashi/FAQ-linux-steam-deck/)。
@@ -26,13 +34,15 @@ order: 5
 
 Steam Deck 上有一种将指定应用程序静音的方法，比如说这篇 Reddit 帖子 [No Sound Fix (英文)](https://www.reddit.com/r/SteamDeck/comments/thy8c9/no_sound_fix/) 中提到的：
 
-```
+::: info
+
 tldr: 游戏可能会被意外地静音。在桌面模式下重新启动游戏，然后进入音频设置中的应用程序选项卡，找到并取消静音。
 
 … 此处省略一万字 …
 
 通过在桌面模式下打开游戏，转到音频设置 (单击任务栏中的扬声器图标)，打开应用程序选项卡并在那里取消静音。
-```
+
+:::
 
 如果还是没有声音，请查看常见问题解答页面中的[没有声音/音频/背景音乐/语音](faq.md#%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3-%E9%9F%B3%E9%A2%91-%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90-%E8%AF%AD%E9%9F%B3)，因为你可能是遇到了其他问题。
 
