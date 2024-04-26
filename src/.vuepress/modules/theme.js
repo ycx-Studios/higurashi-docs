@@ -61,6 +61,25 @@ export default hopeTheme({
       attrs: true,
     },
     
+    docsearch: {
+      appId: "RUSJG7YZZ9",
+      apiKey: "49007588827559919049098ba906bab8",
+      indexName: "higurashi",
+      /*
+      locales: {
+        '/': {
+          placeholder: '搜索...',
+          translations: {
+            button: {
+              buttonText: '搜索...',
+            },
+          },
+        },
+      },
+      */
+    },
+    
+    /*
     searchPro: {
       indexContent: true,
       indexOptions: {
@@ -89,6 +108,7 @@ export default hopeTheme({
           placeholder: "搜索...",
         },
       },
-    }
+    },
+    */
   }
 });

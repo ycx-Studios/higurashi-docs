@@ -1,5 +1,5 @@
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { cut } from "nodejs-jieba";
+// import { searchProPlugin } from "vuepress-plugin-search-pro";
+// import { cut } from "nodejs-jieba";
 import theme from './modules/theme.js';
 
 export default {
