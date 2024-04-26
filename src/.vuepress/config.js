@@ -1,12 +1,11 @@
 // import { searchProPlugin } from "vuepress-plugin-search-pro";
 // import { cut } from "nodejs-jieba";
-import { defineUserConfig } from "vuepress";
-import theme from './modules/theme.js';
+import theme from "./modules/theme.js";
 
 export default {
   base: "/",
 
-  lang: 'zh-CN',
+  lang: "zh-CN",
   title: "《寒蝉鸣泣之时》系列简体中文汉化补丁官方网站",
 
   /*

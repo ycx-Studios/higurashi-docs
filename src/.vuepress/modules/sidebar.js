@@ -41,5 +41,5 @@ export default sidebar([
       { text: "资源下载站", icon: "file-arrow-down", link: "https://download.chinalcmod.com/Higurashi" }
     ]
   },
-  "about"
+  "about",
 ]);

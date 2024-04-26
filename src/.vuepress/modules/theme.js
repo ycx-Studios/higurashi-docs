@@ -1,8 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from './navbar.js';
-import sidebar from './sidebar.js';
-import blog from './blog.js';
-import comment from './comment.js';
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
+import blog from "./blog.js";
+import comment from "./comment.js";
 
 export default hopeTheme({
   navbarLayout: {
@@ -30,9 +30,9 @@ export default hopeTheme({
     email: "admin@chinalcmod.com"
   },
   
-  repo: 'ycx-Studios/higurashi-docs',
-  docsDir: 'docs',
-  docsBranch: 'master',
+  repo: "ycx-Studios/higurashi-docs",
+  docsDir: "docs",
+  docsBranch: "master",
   
   navbar,
   sidebar,
@@ -69,10 +69,10 @@ export default hopeTheme({
       /*
       locales: {
         '/': {
-          placeholder: '搜索...',
+          placeholder: "搜索...",
           translations: {
             button: {
-              buttonText: '搜索...',
+              buttonText: "搜索...",
             },
           },
         },
