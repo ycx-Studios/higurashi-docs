@@ -59,6 +59,7 @@ export default hopeTheme({
       gfm: true,
       align: true,
       attrs: true,
+      vPre: true,
     },
     
     docsearch: {

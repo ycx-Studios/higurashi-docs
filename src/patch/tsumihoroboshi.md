@@ -50,7 +50,7 @@ Lancher 开坑 & 版本发布.
 1. 依照自己选择下载原版/附加语音版/07th-mod 版汉化包, 并且符合自己系统的安装包.  
 注: 非 Windows 版本系统安装帮助均在压缩包内.  
 若要使用语音版, 无需下载原版汉化包与语音补丁, 仅需下载附加语音版汉化补丁即可.  
-若要使用 07th-mod 版, 请前往 [07th-mod](https://07th-mod.com/home/) 安装补丁, 此处附带了[安装指南](https://higurashi.ycx-studios.site/guide/07th-mod/main/).  
+若要使用 07th-mod 版, 请前往 [07th-mod](https://07th-mod.com/home/) 安装补丁, 此处附带了[安装指南](../guide/07th-mod/main.md).  
 2. 解压缩.  
 3. 将汉化补丁放置在游戏目录下, 按照提示或 ReadMe 文件操作. (Mac 版本的具体操作可参考补丁目录下的安装教程视频)  
 4. 运行游戏  
