@@ -289,3 +289,613 @@ Nerve 的音乐是以 MIDI 格式发布的，需要转换成 wav 文件才能在
 这个选项不可用于《第一章 鬼隐篇》，因为这个章节没有使用到这些曲目。
 
 这个选项不可用于《第五章》至《第八章》，因为这些章节的重制版曲目尚未制作。
+
+
+## 出题篇背景音乐变更日志
+
+::: details 点击展开出题篇背景音乐的变更日志
+
+### 版本 1.3 - 2024-04-14 - drojf
+Kilicool64 更新了各种内容，以保证背景音乐的一致性，并添加了新的背景音乐选项。音效没有改变。
+
+#### GIN 版背景音乐 / OGBGM
+- msys30.ogg / “Meditation” 不再使用日文原版游戏 / 旧版 Mangagamer 背景音乐 (2002 年) 的版本，已替换为《奉》合集版游戏 (2014 年) 的版本以保证音乐的一致性 (所有其他的音乐都来自《奉》合集版游戏 (2014 年))
+- 其他的背景音乐已经使用更高的比特率重新转换过，但其实没有改变
+
+#### 2019 年 4 月更新的背景音乐
+- 添加了 "April2019BGM" 文件夹，包含了一个背景音乐文件：msys29.ogg / “Heigen wo Iku (Going to the Plains)”。这个文件与未安装 Mod 版游戏中包含的文件相同，但此文件的音质更高。
+
+#### 《奉＋ 试玩版》背景音乐
+- 将 HouPlusBGM 文件夹重命名为 HouPlusDemoBGM，这是为了避免与 “《奉＋》背景音乐” 的选项混淆。其他内容没有改变
+
+#### 《奉＋》背景音乐
+- 添加了《奉＋》的背景音乐 (来自 Kilicool64)
+
+### 版本 1.2 - 2023-06-24 - drojf
+- 添加了《奉＋ 试玩版》的背景音乐
+
+### 版本 1.1 - 2022-11-05
+- 为 BGM 和 OGBGM 文件夹添加了 bgmInfo.json 文件
+
+### 版本 1.0
+- 第一个版本 - 未知日期
+
+:::
+
+## 解题篇背景音乐变更日志
+
+::: details 点击展开解题篇背景音乐的变更日志
+
+### 文件夹说明
+- ExtraBGM/ExtraSE：这个文件夹中包含了游戏里不存在的背景音乐。目前，它们大部分来自出题篇的背景音乐，也有一部分来自主机版的背景音乐。如果需要替代 BGM 文件夹中的任何背景音乐，我们也可以将那些文件放在这里。
+- OGBGM/OGSE：这个文件夹中包含了背景音乐或音效，当你选择 OGBGM 或是 GIN 版背景音乐选项的时候，就会播放这个文件夹中的内容。这个文件夹将会覆盖所有其他文件夹的选项。
+
+### 版本 1.6 - 2023-04-22
+
+添加了丢失的 BGM/bgmInfo.json 文件，用于修复使用 Mangagamer 或是未使用 Mod 的背景音乐选项时，显示 “未知的背景音乐” 的问题
+
+### 版本 1.5 - 2022-01-06
+
+还原上一个更改：我们已经在 “MangaGamer-Answer-BGM-SE-Restore.7z” 文件中添加了四月更新的背景音乐或音效，并且自动安装器也已经更新，这样就可以在需要的时候安装。
+
+### 版本 1.4 - 2022-01-02
+
+我们发现，GOG 版本的《第五章》和《第六章》的背景音乐是四月更新前的版本。
+
+为了保证背景音乐在所有版本中的一致性，背景音乐的压缩包现在包含了四月更新的背景音乐文件，它将覆盖目前游戏中附带的任何现有背景音乐文件。
+
+### 版本 1.3 - 2022-12-13
+- 请查看 https://github.com/07th-mod/higurashi-assembly/issues/100
+
+我们遇到了一个问题，我们发现有某些背景音乐在 Linux 系统上无法播放。原因是游戏要求所有资源的文件名为小写，而以下资源的文件名不是：
+- primal-beat-of-horrow_T.ogg
+- BIGBEAR
+
+同时，我们也相应地更新了 bgmInfo.json 文件
+
+只有解题篇的 OGBGM 目录受到影响。
+
+### 版本 1.2 - 2022-11-13
+- 请查看 https://github.com/07th-mod/meakashi/issues/80#issuecomment-1312598536
+
+我们注意到，《第八章》的语音压缩包中包含了以下背景音乐与音效 (之前我认为在《第八章》中没有使用额外的背景音乐或音效):
+
+    SE/wa_003.ogg
+    BGM/msys06.ogg
+    BGM/msys32.ogg
+
+不幸的是，msys32 文件没有包含在更新的背景音乐压缩包中，为了添加这个文件，所以我更新了这个压缩包。
+
+### 版本 1.1 - 2022-11-04
+- 请查看拉取请求 https://github.com/07th-mod/meakashi/issues/80
+- 添加了 'ExtraBGM' 与 'ExtraSE'，它们大部分来自出题篇的背景音乐，也有一部分来自主机版的背景音乐。它们之中包含了出题篇在四月更新后的背景音乐和音效文件。
+- 从 'ExtraSE' 文件夹复制文件给 'OGSE' 文件夹作为镜像，这些音效来自 GIN 版的 BGM 文件夹
+- 更新了 OGBGM 文件夹 (GIN 版背景音乐) 的 msys17, msys23, msys27 以保证与出题篇的一致性
+    - 注: 如果你正在使用 OGBGM 选项，我不认为在 OGBGM 选项启用时会使用出题篇的背景音乐 (msysXX)，因为在 GIN 版的脚本中没有引用过它们。但为了保险起见，我会让它们保持一致。
+    - 在这之前，出题篇的 OGBGM 使用了这三首音乐的重置版本，而解题篇的 OGBGM 使用了日语原版的 midi 版本。现在，出题篇和解题篇的 OGBGM 都将使用重置版。
+        - 相关问题可以在此查看： https://github.com/07th-mod/meakashi/issues/49
+- 添加了 BGM 文件夹的 bgmInfo.json 文件
+
+### 版本 1.0 - 2021-03-20
+- 将背景音乐与音效的压缩包合并到了一起
+- 重命名了 'BGM' 与 'SE' 文件夹至 'OGBGM' 与 'OGSE'，这样的话文件夹就相互独立，可以使用新版 DLL 在这几个选项之间切换
+
+:::
+
+## 《奉＋》背景音乐变更日志
+
+::: details 点击展开《奉＋》背景音乐的变更日志
+
+### 版本 1.3 - 2024-04-21
+
+- 添加了 2019 年 4 月更新之后发布的背景音乐 (所以在出题篇中，选择了这个选项的用户可以使用相同的背景音乐)
+- 添加了《奉＋ 试玩版》的背景音乐
+- 更新了 OGBGM
+    - msys30.ogg / “Meditation” 不再使用日文原版游戏 / 旧版 Mangagamer 背景音乐 (2002 年) 的版本，已替换为《奉》合集版游戏 (2014 年) 的版本以保证音乐的一致性 (所有其他的音乐都来自《奉》合集版游戏 (2014 年))
+    - 其他的背景音乐已经使用更高的比特率重新转换过，但其实没有改变
+
+### 版本 1.2 - 2024-03-10
+
+添加了丢失的音效。
+
+以下是从出题篇背景音乐中复制的
+
+wa_037
+wa_038
+wa_039
+
+以下是从原版游戏的 WAV 文件夹中复制的
+
+a5_13391
+door
+down
+down2
+down3
+finish
+kira
+kyupirn
+pou
+se051
+se137
+suzu_1
+tataku
+thisikuki
+
+注：cracker3 (噼里啪啦声) 没有非《奉》的版本，因为它只在《奉＋：女剥篇》中存在
+注二：尽管我们在引擎中引用了如下内容但是没有添加，因为我们无法在音效的文件夹中找到它们
+
+sysse04
+sysse02
+sysse01
+sysse05
+
+### 版本 1.1 - 2024-02-18
+
+添加了《奉》OGSE (不是《奉＋》)
+
+OGSE 并不包含所有音效
+
+此外，《奉》与《奉＋》两个版本之间的许多音效文件是一致的
+
+### 版本 1.0 - 2024-01-30
+
+第一个版本
+
+> 嗯，我在这里创建了个 OGBGM 的包，包含了原版背景音乐和 Mangagamer 版背景音乐的 bgmInfo (背景音乐名称):
+
+请访问 https://github.com/07th-mod/hou-plus/issues/2 查看更多信息
+
+:::
+
+### 关于《奉＋》已使用/未使用音效的说明
+
+下面的展开菜单列出了游戏中已使用或是未使用的音效信息 (指的是在游戏脚本中已经写入但为引用过的)
+
+请注意，下面的列表**未列出**在引擎中使用的部分 `wa_XXX` 音效。在为音效压缩打包的时候，也需要包含这些未列出的音效。
+
+::: details 点击展开《奉＋》背景音乐统计信息
+
+    已使用的音效:
+    02se_umi
+    03se_umi
+    05_se_umi
+    a1_07130
+    a1_07131
+    a1_07132
+    a1_16258
+    a1_17270
+    a5_01023
+    a5_01026
+    a5_04105
+    a5_04107
+    a5_07201
+    a5_07202
+    a5_08263
+    a5_10315
+    a5_10316
+    a5_10317
+    a5_13391
+    a6_24636
+    ahaha
+    ahaha_hi_delay
+    b1
+    b5
+    b7_04050
+    bb
+    boyon
+    chi4
+    chime2
+    cracker3
+    daidageki-kai2
+    danmaku
+    denwa_juwaki_age
+    doon1
+    door
+    down
+    down2
+    down3
+    enrai2
+    finish
+    goriri3
+    heavy1
+    heavy2
+    heavy3
+    heavydoor_close2
+    horror
+    ju-
+    kagitaba2
+    kassai1
+    kira
+    kyupirn
+    min_garagara
+    pou
+    raihuru3d
+    rakurai3
+    reload_fast
+    reload_late
+    rena-swing
+    se051
+    se137
+    se_101
+    se_201
+    se_2105
+    se_5001
+    se_5402
+    se_5403
+    se_5406
+    se_5408
+    se_5502
+    se_5610
+    se_5613
+    se_5614
+    se_5615
+    se_5801
+    se_5802
+    se_5807
+    se_dageki_01
+    se_dageki_02
+    se_dageki_03
+    se_dageki_05
+    se_dageki_07
+    se_zangeki_01
+    se_zangeki_02
+    se_zangeki_03
+    searchlight
+    shatta_toji_zan1
+    suzu_1
+    sys_se/page
+    sys_se/zs1
+    tataku
+    telepo
+    thisikuki
+    wav/a5_07205
+    wav/bell
+    wav/boyon
+    wav/dageki
+    wav/daidageki
+    wav/door
+    wav/down
+    wav/down2
+    wav/down3
+    wav/finish
+    wav/fly
+    wav/furu
+    wav/garasu
+    wav/hikaru
+    wav/iwakannnohatuga
+    wav/jikuunosakeme
+    wav/kamera
+    wav/kami
+    wav/kaminari2
+    wav/kan
+    wav/kaze
+    wav/kira
+    wav/kirinomeikyuu
+    wav/koruku
+    wav/kyupirn
+    wav/lf164
+    wav/lf226
+    wav/mc071
+    wav/metal41
+    wav/metal43
+    wav/nageru
+    wav/pou
+    wav/se194
+    wav/sinzouappaku
+    wav/sword
+    wav/taitoru
+    wav/tatakiwaru
+    wav/tataku
+    wav/thisikuki
+    z1
+
+
+    未使用的音效:
+    01se_umi
+    04_se_umi
+    07_se_umi
+    24chime
+    _se068
+    a1_07133
+    a1_21333
+    a5_02047
+    a5_04138
+    a5_06196
+    a5_07205
+    a5_07212
+    a5_08234
+    a5_14445
+    a6
+    a6_14395
+    anahori
+    autorock5
+    b4
+    b_long
+    barrier_02
+    barrier_03
+    bell
+    bell1
+    boyoon
+    car_stop
+    chaimu
+    clash
+    clock_grand_fathers3
+    dageki
+    daidageki
+    daiken_zangeki_01
+    daiken_zangeki_02
+    daiken_zangeki_03
+    densya
+    denwa_toru
+    doa_s1
+    doon3
+    enrai
+    final
+    fly
+    furu
+    gakuen_bell
+    garasu
+    gun-2
+    gun_zan2
+    hakushu
+    heri1
+    heri2
+    hikaru
+    himeraretakyousou
+    hit_s08_d
+    houseki1
+    houseki5
+    interfon
+    iwakannnohatuga
+    jakinimititahaikyo
+    jikuunosakeme
+    kamera
+    kamera1
+    kami
+    kaminari1
+    kaminari2
+    kaze
+    kinzokupaipu
+    kinzokupaipub
+    kinzokupaipuc
+    kirinomeikyuu
+    kiteki
+    knock2
+    koruku
+    kusari
+    lf164
+    lf226
+    lowclick
+    mc071
+    metal41
+    metal43
+    min_asioto
+    nageru
+    nata_otosi
+    nokku
+    patipati
+    rakurai
+    riv_castanets_rythm
+    se068
+    se149
+    se194
+    se4
+    se_102
+    se_103
+    se_104
+    se_105
+    se_106
+    se_107
+    se_108
+    se_109
+    se_2001
+    se_2002
+    se_2003
+    se_2004
+    se_2005
+    se_2006
+    se_2007
+    se_202
+    se_203
+    se_204
+    se_205
+    se_206
+    se_207
+    se_208
+    se_2101
+    se_2102
+    se_2103
+    se_2104
+    se_2106
+    se_2107
+    se_2108
+    se_2201
+    se_2202
+    se_2401
+    se_2402
+    se_2403
+    se_301
+    se_302
+    se_401
+    se_402
+    se_403
+    se_404
+    se_5101
+    se_5102
+    se_5103
+    se_5301
+    se_5302
+    se_5303
+    se_5401
+    se_5404
+    se_5405
+    se_5407
+    se_5409
+    se_5410
+    se_5411
+    se_5412
+    se_5413
+    se_5501
+    se_5503
+    se_5504
+    se_5601
+    se_5602
+    se_5603
+    se_5604
+    se_5605
+    se_5606
+    se_5607
+    se_5608
+    se_5609
+    se_5611
+    se_5612
+    se_5701
+    se_5702
+    se_5703
+    se_5803
+    se_5804
+    se_5805
+    se_5806
+    se_5901
+    se_5902
+    se_5903
+    se_5904
+    se_5905
+    se_5906
+    se_5907
+    se_5908
+    se_5909
+    se_5910
+    se_6001
+    se_6002
+    se_6003
+    se_6004
+    se_6005
+    se_6006
+    se_6007
+    se_6008
+    se_6009
+    se_601
+    se_6010
+    se_602
+    se_603
+    se_604
+    se_605
+    se_606
+    se_801
+    se_802
+    se_803
+    se_804
+    se_805
+    se_806
+    se_901
+    se_902
+    se_903
+    se_904
+    se_905
+    se_dageki_04
+    se_dageki_06
+    se_dageki_08
+    se_gun01
+    se_gun02
+    se_gun03
+    se_gun04
+    se_gun05
+    se_gun06
+    se_gun07
+    se_gun08
+    se_gun09
+    se_gun10
+    se_gun11
+    se_gun12
+    se_gun13
+    se_zangeki_04
+    se_zangeki_05
+    se_zangeki_06
+    se_zangeki_07
+    se_zangeki_08
+    se_zangeki_kazekiri_01
+    se_zangeki_kazekiri_02
+    se_zangeki_kazekiri_03
+    se_zangeki_kazekiri_04
+    se_zangeki_kazekiri_05
+    se_zangeki_kazekiri_06
+    se_zangeki_kazekiri_07
+    se_zangeki_kazekiri_08
+    shatta_ake_zan1
+    shatter
+    shogeki
+    sinzouappaku
+    siren
+    sizuku
+    suzume
+    sword
+    sys_se/2
+    sys_se/clock_grand_fathers2
+    sys_se/clock_ticking
+    sys_se/da_kane
+    sys_se/da_kane2
+    sys_se/kamera
+    sys_se/kt1
+    sys_se/mizu_d
+    sys_se/mizu_d2
+    sys_se/mizu_ijou
+    sys_se/one_re
+    sys_se/web_minpoke_knock
+    sys_se/z2
+    sys_se/zs2
+    sys_se/zs3
+    sys_se/zs4
+    sys_se/zs5
+    sys_se/zs6
+    sys_se/zyosys1
+    sys_se/zyosys3
+    sys_se/zyosys7
+    sys_se/ネジ
+    sys_se/柱時計の鐘
+    sys_se/柱時計の鐘2
+    system2
+    system3
+    syunkan06
+    taitoru
+    tatakiwaru
+    tr018b
+    tubazeri
+    wa_037
+    wa_038
+    wa_040
+    warai_wet2
+    waru
+    wav/_se068
+    wav/a5_07212
+    wav/a5_13391
+    wav/a6
+    wav/anahori
+    wav/bb
+    wav/boyoon
+    wav/chaimu
+    wav/densya
+    wav/final
+    wav/himeraretakyousou
+    wav/hit_s08_d
+    wav/interfon
+    wav/jakinimititahaikyo
+    wav/kaminari1
+    wav/lf257
+    wav/se051
+    wav/se068
+    wav/se137
+    wav/se149
+    wav/sizuku
+    wav/suzu_1
+    wav/suzume
+    wav/tr018b
+    wav/waru
+    zippo
+
+
+    状态:
+    已使用的文件: 132/433
+    未使用的文件: 301/433
+
+:::
