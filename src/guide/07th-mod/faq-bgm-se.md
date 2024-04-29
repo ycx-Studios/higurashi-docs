@@ -5,7 +5,7 @@ author: Lancher, ycx
 category: 使用指南
 tag:
   - 07th-mod
-  - 安装指南
+  - 常见问题
 article: false
 order: 6
 ---

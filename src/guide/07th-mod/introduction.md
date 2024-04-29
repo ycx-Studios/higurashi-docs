@@ -5,7 +5,7 @@ author: ycx
 category: 使用指南
 tag:
   - 07th-mod
-  - 安装指南
+  - 使用说明
 article: false
 order: 1
 ---
