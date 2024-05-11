@@ -7,6 +7,7 @@ category: 汉化补丁
 date: 2017-09-03
 tag:
   - 汉化补丁
+sticky: 4
 ---
 ![](https://cdn.iycx.top/higurashi/ep1_chs_cover.jpg)  
 ## 摘要
