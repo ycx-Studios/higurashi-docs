@@ -13,7 +13,7 @@ sticky: 2
 ## 摘要
 <div align="center"><iframe width="100%" height="190" frameborder="0" src="https://store.steampowered.com/widget/526490/?t=%E3%80%8A%E5%AF%92%E8%9D%89%E9%B8%A3%E6%B3%A3%E4%B9%8B%E6%97%B6%E3%80%8B%E6%98%AF%E4%B8%80%E9%83%A8%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E3%80%82%E9%9F%B3%E4%B9%90%E3%80%81%E6%95%85%E4%BA%8B%E8%83%8C%E6%99%AF%E4%B8%8E%E8%A7%92%E8%89%B2%E5%85%B1%E5%90%8C%E5%88%9B%E9%80%A0%E4%BA%86%E4%B8%80%E4%B8%AA%E4%B8%96%E7%95%8C%EF%BC%8C%E6%98%AF%E7%8E%A9%E5%AE%B6%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AF%B4%E7%9A%84%E8%88%9E%E5%8F%B0%E3%80%82%E6%AC%A2%E7%AC%91%E3%80%81%E5%93%AD%E6%B3%A3%E3%80%81%E6%80%A8%E6%81%A8%E3%80%82%E8%AF%B7%E5%B8%A6%E7%9D%80%E9%82%A3%E6%A0%B7%E7%9A%84%E5%BF%83%E6%83%85%E4%B8%8E%E4%B8%BB%E4%BA%BA%E5%85%AC%E4%B8%80%E8%B5%B7%E4%BD%93%E9%AA%8C%E6%95%85%E4%BA%8B%E5%90%A7%E3%80%82"></iframe></div>  
 
-该补丁同步于 [Keylol 其乐](https://keylol.com/t950741-1-1), [百度秋蝉鸣泣之时吧](https://tieba.baidu.com/p/9030959532) 与 哔哩哔哩专栏 发布.  
+该补丁同步于 [Keylol 其乐](https://keylol.com/t950741-1-1), [百度秋蝉鸣泣之时吧](https://tieba.baidu.com/p/9030959532) 与 [哔哩哔哩专栏](https://www.bilibili.com/read/cv34812297) 发布.  
 本次为大家送上的是出题篇的外传, 所以制作发布周期也比较短, 至此出题篇的全部四个篇章都已经完成了.  
 接下来将会为大家带来解题篇的汉化补丁, 还请各位耐心等待!
 同样, 关于这个补丁有任何问题可以先查看下方的常见问题部分, 如果实在找不到解决办法, 方法同上.  
