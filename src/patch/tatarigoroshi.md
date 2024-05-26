@@ -7,7 +7,7 @@ category: 汉化补丁
 date: 2024-05-11
 tag:
   - 汉化补丁
-sticky: 2
+sticky: 3
 ---
 ![](https://cdn.iycx.top/higurashi/ep3_chs_cover.jpg)  
 ## 摘要
@@ -77,3 +77,5 @@ Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.
 ![](https://cdn.iycx.top/blog/2024/05/screenshot_04.jpg)
 
 ![](https://cdn.iycx.top/blog/2024/05/screenshot_05.jpg)
+
+![](https://cdn.iycx.top/blog/2024/05/screenshot_06.jpg)

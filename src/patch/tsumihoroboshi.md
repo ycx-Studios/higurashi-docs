@@ -87,3 +87,5 @@ Lancher 是蕾娜粉, 第6章也是寒蝉全篇写得最好的篇目之一, 所�
 ![](https://cdn.iycx.top/blog/2021/08/screenshot_04.jpg)
 
 ![](https://cdn.iycx.top/blog/2021/08/screenshot_05.jpg)
+
+![](https://cdn.iycx.top/blog/2021/08/screenshot_06.jpg)
