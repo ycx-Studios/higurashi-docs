@@ -12,6 +12,7 @@ export default sidebar([
       { text: "寒蝉鸣泣之时：鬼隐篇", link: "onikakushi", icon: "code-branch" },
       { text: "寒蝉鸣泣之时：绵流篇", link: "watanagashi", icon: "code-branch" },
       { text: "寒蝉鸣泣之时：祟杀篇", link: "tatarigoroshi", icon: "code-branch" },
+      { text: "寒蝉鸣泣之时：暇溃篇", link: "himatsubushi", icon: "code-branch" },
       { text: "寒蝉鸣泣之时：罪灭篇", link: "tsumihoroboshi", icon: "code-branch" }
     ],
   },
