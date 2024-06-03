@@ -50,7 +50,7 @@ Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.
 阿里云盘: [https://www.alipan.com/s/s5mKgqfN39p](https://www.alipan.com/s/s5mKgqfN39p)  
 天翼云盘: [https://cloud.189.cn/web/share?code=NJJjmy2IrYfy 访问码: ujr2](https://cloud.189.cn/web/share?code=NJJjmy2IrYfy)   
 百度网盘: [https://pan.baidu.com/s/1Rz6XoRh264J4Dbc__uwJnQ 提取码: 2333](https://pan.baidu.com/s/1Rz6XoRh264J4Dbc__uwJnQ?pwd=2333)  
-中文 Steam 背景与徽标 (非必要): [Steam_Library_Ep04.zip](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep04.zip)  
+中文 Steam 背景与徽标 (非必要): [Steam 原版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep04.zip) | [07th-mod 版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep04_07th-mod.zip)  
 
 ## 常见问题
 ### 如何使用汉化补丁?
