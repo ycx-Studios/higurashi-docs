@@ -60,7 +60,7 @@ Lancher 开坑 & 版本发布.
 阿里云盘: [https://alywp.net/9JRmZ](https://alywp.net/9JRmZ)  
 天翼云盘: [https://cloud.189.cn/t/eyM3EbV3eQbu](https://cloud.189.cn/t/eyM3EbV3eQbu)  
 百度网盘: [https://pan.baidu.com/s/1aW2_DM4MyXKB6UCaXIivRA 提取码: 2333](https://pan.baidu.com/s/1aW2_DM4MyXKB6UCaXIivRA#2333)  
-中文 Steam 背景与徽标 (非必要): [Steam 原版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep06.zip)  | [07th-mod 版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep06_07th-mod.zip)  
+中文 Steam 背景与徽标 (非必要): [Steam 原版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep06.zip) | [07th-mod 版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep06_07th-mod.zip)  
 
 ## 常见问题
 ### 如何使用汉化补丁?
