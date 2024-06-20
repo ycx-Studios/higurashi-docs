@@ -38,6 +38,14 @@ tldr: 游戏可能会被意外地静音。在桌面模式下重新启动游戏�
 
 ## 一般的 Linux 问题
 
+### [仅限 Wine 用户] 启动时不显示文字：缺少字体
+
+有些使用 Wine 的用户 (不影响 Proton 或 Native) 报告了这个问题，他们在第一次启动游戏的时候看不到任何文字。
+
+这个问题只会出现在所有的 Mod 菜单中 (例如 F10 菜单)，也就是菜单不会显示文字，并且不会影响到正常的游戏。
+
+想解决这个问题，你需要将 `corefonts` 字体包安装到 wineprefix 中。各个系统安装 `corefonts` 的方式可能不同，所以你可能需要自行查找下安装方法。07th-mod 网站上提供了一些截图，可能会提供帮助，[点击查看 (英文)](https://07th-mod.com/wiki/Higurashi/FAQ/#wine-users-only-no-text-on-startup-missing-corefonts)。
+
 ### 游戏在启动时崩溃，日志开头有 “fatal stalled cross-thread pipe” 的错误信息
 
 - 如果日志开头有 `src/common/pipes.cpp (852) : fatal stalled cross-thread pipe` 的错误，可能是游戏与 Steam 之间的通信出现问题
