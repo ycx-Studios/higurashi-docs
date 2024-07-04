@@ -8,6 +8,6 @@ index: false
 
 - [安装指南](main.md)
 
-- [快捷键和设置说明](shortcuts.md)
+- [游戏内设置和配置文件说明](config.md)
 
 - [常见问题解答](faq.md)
