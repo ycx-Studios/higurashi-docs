@@ -4,6 +4,15 @@ title: 使用指南
 article: false
 index: false
 ---
+## 汉化补丁使用指南
+
+- [安装指南](patch/main.md)
+
+- [快捷键和设置说明](patch/shortcuts.md)
+
+- [常见问题解答](patch/faq.md)
+
+
 ## [07th-mod 补丁](07th-mod/readme.md)
 
 - [补丁介绍](07th-mod/introduction.md)

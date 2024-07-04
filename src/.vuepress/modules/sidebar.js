@@ -22,6 +22,15 @@ export default sidebar([
     icon: "signs-post",
     prefix: "/guide/",
     children: [{
+      text: "汉化补丁",
+      icon: "cube",
+      prefix: "patch/",
+      children: [
+        { text: "安装指南", link: "main", icon: "file-arrow-down" },
+        { text: "游戏内设置和配置文件说明", link: "config", icon: "gears" },
+        { text: "常见问题解答", link: "faq", icon: "circle-question" }
+      ]
+    }, {
       text: "07th-mod 补丁",
       icon: "cube",
       prefix: "07th-mod/",
