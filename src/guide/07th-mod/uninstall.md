@@ -1,6 +1,6 @@
 ---
 icon: screwdriver-wrench
-title: 游戏及 Mod 卸载指南
+title: 游戏和 Mod 卸载指南
 author: Lancher, ycx
 category: 使用指南
 tag:
@@ -16,7 +16,7 @@ order: 7
 
 :::
 
-# 游戏及 Mod 卸载指南
+# 游戏和 Mod 卸载指南
 
 如果你想完全卸载《寒蝉鸣泣之时》游戏 (想重装，或是已经通关了)，请遵循以下指南。注意，**从 Steam 卸载游戏不会删除 Mod 文件**。所以要遵循以下指南从电脑中完全删除 Mod 文件。
 

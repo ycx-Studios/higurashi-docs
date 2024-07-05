@@ -26,7 +26,7 @@ export default sidebar([
       icon: "cube",
       prefix: "patch/",
       children: [
-        { text: "安装指南", link: "main", icon: "file-arrow-down" },
+        { text: "安装和卸载指南", link: "main", icon: "file-arrow-down" },
         { text: "游戏内设置和配置文件说明", link: "config", icon: "gears" },
         { text: "常见问题解答", link: "faq", icon: "circle-question" }
       ]
@@ -41,7 +41,7 @@ export default sidebar([
         { text: "常见问题解答", link: "faq", icon: "circle-question" },
         { text: "　- Linux 和 Steam Deck", link: "faq-linux-steam-deck" },
         { text: "　- 背景音乐与音效", link: "faq-bgm-se" },
-        { text: "游戏及 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
+        { text: "游戏和 Mod 卸载指南", link: "uninstall", icon: "screwdriver-wrench" }
       ]
     }]
   },

@@ -18,4 +18,4 @@ index: false
 
     - [背景音乐与音效](faq-bgm-se.md)
 
-- [游戏及 Mod 卸载指南](uninstall.md)
+- [游戏和 Mod 卸载指南](uninstall.md)

@@ -199,27 +199,7 @@ order: 2
 
 5. 完成后，应该会生成一个 `HigurashiEp0X_Data` 文件夹 (`X` 是游戏篇章的编号)，完整路径应该是 `Resources/Data/HigurashiEp0X_Data`。
 
-6. 在 `Resources/Data` 文件夹下打开终端窗口，输入 `rsync -avP HigurashiEp*/* .` 并按下回车。等待文件复制完成。如果不知道如何操作，可以查看下方的教程，或者访问[这篇文章 (英文)](https://stackoverflow.com/a/7054045)。
-
-::: details 启用 “在当前位置打开终端” 功能并执行命令的图文教程
-
-1. 进入 `键盘快捷键` 的 `服务` 分类，此处有两种操作方法：
-
-- 点击位于屏幕顶部的 “访达” 菜单栏，选择 `服务`→`服务设置…`。  
-
-- 进入 `系统设置`，找到在菜单栏最底部的 `键盘`，选择 `键盘快捷键`，然后再选择 `服务`。
-
-2. 在 `服务` 窗口中展开 `文件和文件夹`，勾选上 `新建位于文件夹位置的终端标签页/窗口` (可以只勾选其中一个，也可以都勾选上)，然后点击 `完成`。
-
-![](https://cdn.iycx.top/higurashi/guide/install-mac-1.png)  
-
-3. 回到 `Resources/Data` 文件夹，右键点击 `Data` 文件夹，选择 `服务`→`新建位于文件夹位置的终端标签页/窗口` (两个选项都可以)。
-
-![](https://cdn.iycx.top/higurashi/guide/install-mac-2.png)  
-
-4. 打开的终端应该会显示 `用户名@主机名 Data % █`，输入 `rsync -avP HigurashiEp*/* .` 并按下回车键，等待命令执行结束即可。
-
-:::
+6. 在 `Resources/Data` 文件夹下打开终端窗口，输入 `rsync -avP HigurashiEp*/* .` 并按下回车。等待文件复制完成。如果在右键菜单中找不到选项或者不知道如何操作，可以查看[此处的帮助](../patch/faq.md#macos-%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89-%E5%9C%A8%E5%BD%93%E5%89%8D%E4%BD%8D%E7%BD%AE%E6%89%93%E5%BC%80%E7%BB%88%E7%AB%AF-%E7%9A%84%E5%8A%9F%E8%83%BD)。
 
 7. 解压 BGM & SE 压缩包到 `Resources/Data/StreamingAssets` 文件夹下。
 

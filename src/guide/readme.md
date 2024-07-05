@@ -27,4 +27,4 @@ index: false
 
     - [背景音乐与音效](07th-mod/faq-bgm-se.md)
 
-- [游戏及 Mod 卸载指南](07th-mod/uninstall.md)
+- [游戏和 Mod 卸载指南](07th-mod/uninstall.md)
