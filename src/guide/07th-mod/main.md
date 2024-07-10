@@ -40,6 +40,12 @@ order: 2
 
 :::
 
+::: details 点击展开视频教程
+
+<BiliBili bvid="BV1a4421U7BV" time="350" />
+
+:::
+
 ## 准备工作
 打开 [07th-mod 官网](https://07th-mod.com)。
 
@@ -60,7 +66,6 @@ order: 2
 请选择 **手动安装 (Manual Installation)** 标签，滚动到网页的下方可以找到各个文件的下载地址。
 
 ![](https://cdn.iycx.top/higurashi/guide/07th-mod-full-patch.jpg)  
-
 
 以下分别对应了 Windows/Linux 和 Mac OSX 的安装教程。
 

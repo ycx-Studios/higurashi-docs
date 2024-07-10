@@ -80,6 +80,12 @@ export default hopeTheme({
       */
     },
     
+    components: {
+      components: [
+        "BiliBili"
+      ]
+    },
+    
     /*
     searchPro: {
       indexContent: true,
