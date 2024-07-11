@@ -42,7 +42,7 @@ order: 2
 
 ::: details 点击展开视频教程
 
-<BiliBili bvid="BV1a4421U7BV" time="350" />
+<BiliBili bvid="BV1a4421U7BV" time="420" />
 
 :::
 
