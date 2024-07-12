@@ -8,7 +8,7 @@ index: false
 
 - [安装指南](patch/main.md)
 
-- [快捷键和设置说明](patch/shortcuts.md)
+- [游戏内设置和配置文件说明](patch/config.md)
 
 - [常见问题解答](patch/faq.md)
 
