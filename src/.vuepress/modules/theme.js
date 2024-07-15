@@ -86,10 +86,6 @@ export default hopeTheme({
       ]
     },
     
-    googleAnalyticsPlugin({
-      id: "G-GWSWLL4D2C",
-    }),
-    
     /*
     searchPro: {
       indexContent: true,

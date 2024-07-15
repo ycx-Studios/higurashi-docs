@@ -1,5 +1,7 @@
 // import { searchProPlugin } from "vuepress-plugin-search-pro";
 // import { cut } from "nodejs-jieba";
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+
 import theme from "./modules/theme.js";
 
 export default {
@@ -35,6 +37,12 @@ export default {
   */
 
   theme,
+  
+  plugins: [
+    googleAnalyticsPlugin({
+      id: "G-GWSWLL4D2C"
+    })
+  ],
   
   /* configureWebpack: () => {
     const NODE_ENV = process.env.NODE_ENV
