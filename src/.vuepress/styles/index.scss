@@ -126,6 +126,20 @@ html[data-theme="dark"] {
   padding-left: 0;
 }
 
+.vp-site-info-logo {
+  border-radius: 50%;
+}
+
+/*
+.vp-site-info-detail {
+  margin-top: -2.5em;
+}
+
+.vp-site-info-source {
+  margin: auto 0.2em;
+}
+*/
+
 @media (min-width: 60rem) {
   .DocSearch-Button {
     border: 1px solid var(--vp-brcd) !important;

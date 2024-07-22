@@ -82,7 +82,8 @@ export default hopeTheme({
     
     components: {
       components: [
-        "BiliBili"
+        "BiliBili",
+        "SiteInfo",
       ]
     },
     

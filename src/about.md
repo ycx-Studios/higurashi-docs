@@ -3,14 +3,39 @@ title: 关于我们
 icon: circle-info
 article: false
 ---
+::: center
 ![](https://cdn.iycx.top/files/mologo.png)  
+:::
+
+## 主要成员
+
+::: center
+<SiteInfo
+  name="ycx"
+  desc="主要成员"
+  url="https://www.chinalcmod.com"
+  logo="https://cdn.iycx.top/higurashi/avatar/ycx.jpg"
+  repo="https://github.com/CN-ycx"
+  preview="https://cdn.iycx.top/higurashi/avatar/ycx_background.jpg"
+/>
+
+<SiteInfo
+  name="Lancher"
+  desc="主要成员"
+  url="https://muqo.icu"
+  logo="https://cdn.iycx.top/higurashi/avatar/lancher.jpg"
+  repo="https://github.com/LancherM"
+  preview="https://cdn.iycx.top/higurashi/avatar/lancher_background.jpg"
+/>
+:::
+
 ## 组织介绍
 
-我们是隶属于 [ycx Studios](https://www.chinalcmod.com) 的附属业余汉化组织, 由 ycx 创建.
+我们是隶属于 [ycx Studios](https://www.chinalcmod.com) 的附属业余汉化组织.
 
-在 2021 年 [Lancher](https://space.bilibili.com/352615779) 加入后, 《寒蝉鸣泣之时》项目目前的主要成员有两人.
-分别负责汉化补丁的程序, 编码, 图像处理, 文本翻译, 校对以及文章撰写与发布, 宣传, 搬运视频等工作.
-我们也偶有收到热心玩家的倾力协助, 在这里也非常感谢支持我们的各位.
+在 2021 年 [Lancher](https://muqo.icu) 加入后, 与 [ycx](https://www.chinalcmod.com) 一起作为目前《寒蝉鸣泣之时》项目的主要成员.
+分别负责汉化补丁的程序, 编码, 图像处理, 文本翻译, 校对, 维护以及文章撰写与发布, 宣传, 搬运视频等工作.
+我们也偶有收到由热心玩家的倾力协助, 在这里也非常感谢支持我们的各位.
 
 汉化组目前主要制作《寒蝉鸣泣之时》MangaGamer 版本游戏的全平台简体中文汉化补丁.
 我们同时也翻译由 07th-mod 网站发布的补丁与教程文章.
