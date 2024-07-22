@@ -14,7 +14,7 @@ article: false
   name="ycx"
   desc="主要成员"
   url="https://www.chinalcmod.com"
-  logo="https://cdn.iycx.top/higurashi/avatar/ycx.png"
+  logo="https://cdn.iycx.top/higurashi/avatar/ycx.jpg"
   repo="https://github.com/CN-ycx"
   preview="https://cdn.iycx.top/higurashi/avatar/ycx_background.jpg"
 />
@@ -23,7 +23,7 @@ article: false
   name="Lancher"
   desc="主要成员"
   url="https://muqo.icu"
-  logo="https://cdn.iycx.top/higurashi/avatar/lancher.png"
+  logo="https://cdn.iycx.top/higurashi/avatar/lancher.jpg"
   repo="https://github.com/LancherM"
   preview="https://cdn.iycx.top/higurashi/avatar/lancher_background.jpg"
 />
