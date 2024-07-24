@@ -44,13 +44,6 @@ export default navbar([
       ]
     }]
   },
-  {
-    text: "下载中心",
-    icon: "download",
-    children: [
-      { text: "天翼云盘 (访问码: xx1o)", icon: "file-arrow-down", link: "https://cloud.189.cn/web/share?code=euaYZzjEbQji" },
-      { text: "资源下载站", icon: "file-arrow-down", link: "https://download.chinalcmod.com/Higurashi" }
-    ]
-  },
+  { text: "下载中心", icon: "download", link: "download" },
   { text: "关于我们", icon: "circle-info", link: "about" },
 ]);

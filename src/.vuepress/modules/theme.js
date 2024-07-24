@@ -84,6 +84,7 @@ export default hopeTheme({
       components: [
         "BiliBili",
         "SiteInfo",
+        "VPCard",
       ]
     },
     
