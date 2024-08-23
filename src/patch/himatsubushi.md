@@ -20,7 +20,8 @@ sticky: 3
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
 
 现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化 (适配版本为 **v7.1.2**, 如未说明均可兼容后续更新)! (Steam, MangaGamer, GOG 版本)  
-另: 有中文版的 Steam 背景与徽标可供下载.  
+另: 有中文版的 Steam 背景与徽标可供下载, 点击这里查看[使用教程](../guide/patch/main.md#设置-steam-自定义背景-徽标-封面图), 预览图:  
+![](https://cdn.iycx.top/blog/2020/05/steam-library.jpg)  
 
 如果遇到中文显示不正常的情况 (一般是菜单), 经测试需要安装中文字体软件包. 例如 [```Noto CJK```](https://github.com/notofonts/noto-cjk) 或是 [```文泉驿微米黑/文泉驿正黑```](http://wenq.org/wqy2/index.cgi) 等, 请确认下是否有安装.  
 不同的操作系统安装方式与软件包名都不同, 请自行搜索下自己使用的操作系统系统适用的安装方式与软件包名.  

@@ -20,7 +20,7 @@ sticky: 6
 该补丁完全免费. 如果你是在任何渠道购买到的, 麻烦给一个差评!  
 
 现已支持所有版本的游戏以及<font color='#ff3a3a'>07th-mod 补丁</font>使用汉化 (适配版本为 **v7.1.3**, 如未说明均可兼容后续更新)! (Steam, MangaGamer, GOG 版本)  
-另: 中文版的 Steam 背景与徽标, 预览图:  
+另: 有中文版的 Steam 背景与徽标可供下载, 点击这里查看[使用教程](../guide/patch/main.md#设置-steam-自定义背景-徽标-封面图), 预览图:  
 ![](https://cdn.iycx.top/blog/2020/05/steam-library.jpg)  
 
 另: 官方已收到我们的简中汉化, 将在~~近期更新~~ (遥遥无期), 敬请期待!  
