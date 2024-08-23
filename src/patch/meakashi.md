@@ -31,7 +31,7 @@ sticky: 2
 Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.4.1  
 
 ## 参与人员
-原翻译: Jerry2  
+原翻译: GotlW, 小舟舟, L  
 原润色: 香菇, 无从, Mize  
 监制: ycx  
 技术: ycx  
