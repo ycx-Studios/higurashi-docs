@@ -7,7 +7,7 @@ category: 汉化补丁
 date: 2024-06-27
 tag:
   - 汉化补丁
-sticky: 2
+sticky: 3
 ---
 ![](https://cdn.iycx.top/higurashi/ep5_chs_cover.jpg)  
 ## 摘要
@@ -44,6 +44,7 @@ Linux 测试平台: Ubuntu 20.04.6 LTS x64, MacOS 测试平台: macOS Sonoma 14.
 ### Ver 1.0 (2024.06.27)
 最初版本发布.  
 新增键位绑定功能, 允许对部分功能额外绑定一个功能键.  
+适配 07th-mod 补丁版本 v5.3.0.  
 
 ### Ver 1.0 Beta (2021.06.27)
 Lancher 开坑.  

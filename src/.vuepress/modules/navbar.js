@@ -13,7 +13,8 @@ export default navbar([
       { text: "寒蝉鸣泣之时：祟杀篇", link: "tatarigoroshi", icon: "code-branch" },
       { text: "寒蝉鸣泣之时：暇溃篇", link: "himatsubushi", icon: "code-branch" },
       { text: "寒蝉鸣泣之时：目明篇", link: "meakashi", icon: "code-branch" },
-      { text: "寒蝉鸣泣之时：罪灭篇", link: "tsumihoroboshi", icon: "code-branch" }
+      { text: "寒蝉鸣泣之时：罪灭篇", link: "tsumihoroboshi", icon: "code-branch" },
+      { text: "寒蝉鸣泣之时：皆杀篇", link: "minagoroshi", icon: "code-branch" }
     ]
   },
   {

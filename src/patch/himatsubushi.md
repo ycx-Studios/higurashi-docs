@@ -7,7 +7,7 @@ category: 汉化补丁
 date: 2024-05-26
 tag:
   - 汉化补丁
-sticky: 3
+sticky: 4
 ---
 ![](https://cdn.iycx.top/higurashi/ep4_chs_cover.jpg)  
 ## 摘要
