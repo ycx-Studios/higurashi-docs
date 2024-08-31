@@ -96,7 +96,7 @@ MacOS 版本的制作, 感谢 Keylol @niu541412 的建议.
 4. 运行游戏  
 
 ## 下载地址
-阿里云盘: [https://www.alipan.com/s/V22dyemJSeL](https://www.alipan.com/s/V22dyemJSeL)  
+阿里云盘: [https://www.alipan.com/s/4qUmbahEJpT](https://www.alipan.com/s/4qUmbahEJpT)  
 天翼云盘: [https://cloud.189.cn/t/RFVBRbnAFZvu](https://cloud.189.cn/t/RFVBRbnAFZvu)  
 百度网盘: [https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw 提取码: 2333](https://pan.baidu.com/s/1OOlq2jd76XZ45xIM2RNsLw#2333)  
 中文 Steam 背景与徽标 (非必要): [Steam 原版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep01.zip) | [07th-mod 版](https://download.chinalcmod.com/Higurashi/Steam%20Library/Steam_Library_Ep01_07th-mod.zip)  
