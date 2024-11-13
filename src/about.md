@@ -48,7 +48,17 @@ article: false
 
 如果你实在想为我们提供支持, 那可以宣传下我们的网站与补丁, 十分感谢你的支持!
 
+## 玩家交流群
+
+如果你想找到同好，或是与我们沟通交流，可以加入玩家交流群，我们欢迎你的加入。
+
+一群: [223078976](https://qm.qq.com/cgi-bin/qm/qr?k=StIGWlNuZrT7f2NUor9IgJ71KEe622OX&jump_from=webapi&authKey=5otXZ183wlKGVgMWM4EyY/Kaqcee95U8iTlVPCjjO4rshZr/L4fnYWgEx4jqgV5o) (已满)
+二群: [993974366](https://qm.qq.com/cgi-bin/qm/qr?k=6pFaodO8Cq6T5YlviUxLWUhVbjDUtnT_&jump_from=webapi&authKey=xsTNXQph94UGW8Ix0UdM9As3+7mj0zt/hDL3bv5XEla5nVUrFEzJwAGI/xrSN8VL)
+
 ## 大事件时间线
+
+### 2024.11.01
+我们恢复了汉化补丁的下载, 并添加了页面说明.
 
 ### 2024.10.26
 关闭了所有汉化补丁的下载地址进行维护.
