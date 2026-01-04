@@ -11,9 +11,9 @@ export default hopeTheme({
     end: ["Outlook", "Search", "Links", "Repo"],
   },
   navbarIcon: true,
-  logo: "https://cdn.iycx.top/higurashi/mologo.png",
+  logo: "/images/mologo.png",
   hostname: "https://higurashi.ycx-studios.site",
-  favicon: "https://cdn.iycx.top/favicon.ico",
+  favicon: "/images/favicon.ico",
   
   iconAssets: [
     "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js",
@@ -40,7 +40,7 @@ export default hopeTheme({
   blog,
   
   displayFooter: true,
-  footer: "© 2013-2025 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
+  footer: "© 2013-2026 <a href=\"https://www.chinalcmod.com\">ycx Studios</a>",
   copyright: "本网站发布的内容与 07th Expansion 或 MangaGamer 没有直接关系，热爱本作品请购买正版 | <a href=\"https://github.com/ycx-Studios/higurashi-docs/blob/master/LICENSE\" target=\"_blank\" rel=\"noopener noreferrer\">AGPL-3.0 Licensed</a>",
   plugins: {
     feed: false,

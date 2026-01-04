@@ -28,23 +28,23 @@ order: 1
 
 @tab 主机版预设
 
-![](https://cdn.iycx.top/higurashi/guide/console.jpg)
+![](/guide/console.jpg)
 
 @tab Steam 版预设
 
-![](https://cdn.iycx.top/higurashi/guide/steam.jpg)
+![](/guide/steam.jpg)
 
 @tab 原版预设
 
-![](https://cdn.iycx.top/higurashi/guide/vanilla.jpg)
+![](/guide/vanilla.jpg)
 
 @tab 立绘选项
 
-![](https://cdn.iycx.top/higurashi/guide/sprite-comparison.jpg)
+![](/guide/sprite-comparison.jpg)
 
 @tab 背景选项
 
-![](https://cdn.iycx.top/higurashi/guide/background-comparison.jpg)
+![](/guide/background-comparison.jpg)
 
 ::::
 
@@ -73,7 +73,7 @@ order: 1
 
 对于想获取《宵越篇》中不同选项的区别和剧情走向的玩家，这里有一篇 [攻略 (英文)](https://07th-mod.com/wiki/Higurashi/img/walk-yoig.webp)。同样的，《澪尽篇・表》也提供了 [攻略 (英文)](https://07th-mod.com/wiki/Higurashi/img/walk-omot.webp)。
 
-![](https://cdn.iycx.top/higurashi/guide/flow.jpg)
+![](/guide/flow.jpg)
 
 ## 完整版补丁与仅语音补丁
 

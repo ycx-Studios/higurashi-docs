@@ -1,6 +1,6 @@
 /*
 * {
-  cursor: url('https://cdn.iycx.top/higurashi/chopper.cur'), default;
+  cursor: url('/images/chopper.cur'), default;
 }
 */
 
@@ -65,11 +65,11 @@
 
 html[data-theme="light"] {
   .vp-project-home, .vp-blog-mask {
-    background-image: url(https://cdn.iycx.top/higurashi/bg.jpg) !important;
+    background-image: url(/background/bg.jpg) !important;
   }
 
   .vp-page {
-    background-image: url(https://cdn.iycx.top/higurashi/bg_transform.jpg) !important;
+    background-image: url(/background/bg_transform.jpg) !important;
   }
   
   .vp-hero-info .vp-hero-action.default {
@@ -83,11 +83,11 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   .vp-project-home, .vp-blog-mask {
-    background-image: url(https://cdn.iycx.top/higurashi/bg_night.jpg) !important;
+    background-image: url(/background/bg_night.jpg) !important;
   }
 
   .vp-page {
-    background-image: url(https://cdn.iycx.top/higurashi/bg_transform_night.jpg) !important;
+    background-image: url(/background/bg_transform_night.jpg) !important;
   }
   
   .vp-hero-info .vp-hero-action.default {

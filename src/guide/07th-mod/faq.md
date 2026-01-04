@@ -222,7 +222,7 @@ Windows 允许你为每个软件单独设置音量，这个功能可能会导致
 
 想解决这个问题，你需要在设备管理器中禁用 (或者卸载?) 驱动程序，位于`设备管理器`→`系统设备`→`FrescoLogic 代理显示适配器` / `FrescoLogic Proxy Display Adapter`，如下图所示：
 
-![](https://cdn.iycx.top/higurashi/guide/device-manager-frescologic-driver.jpg)  
+![](/guide/device-manager-frescologic-driver.jpg)  
 
 ## 已知问题 - 特定的章节或版本
 

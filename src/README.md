@@ -2,7 +2,7 @@
 home: true
 title: 首页
 icon: house
-heroImage: https://cdn.iycx.top/higurashi/logo.png
+heroImage: /images/logo.png
 heroText: false
 heroAlt: 《寒蝉鸣泣之时》系列中文汉化补丁官方网站
 heroFullScreen: true　

@@ -49,15 +49,15 @@ order: 2
 ## 准备工作
 打开 [07th-mod 官网](https://07th-mod.com)。
 
-![](https://cdn.iycx.top/higurashi/guide/07th-mod-main.jpg)  
+![](/guide/07th-mod-main.jpg)  
 
 点击 `INSTALL THE PATCH`。页面跳转后，在左侧的导航栏找到 `Higurashi` 标签并点击展开。
 
-![](https://cdn.iycx.top/higurashi/guide/07th-mod-wiki.jpg)  
+![](/guide/07th-mod-wiki.jpg)  
 
 子标签从上到下分别为 `介绍`、`自动安装器`、`手动安装`、`快捷键与设置`、`仅语音补丁`、`常见问题解答` (包含 `Linux 系统与 Steam Deck`、`背景音乐与音效` 以及 `澪尽篇`)、`获得支持`、`卸载 Mod 及游戏`。
 
-![](https://cdn.iycx.top/higurashi/guide/07th-mod-higurashi.jpg)  
+![](/guide/07th-mod-higurashi.jpg)  
 
 由于 07th-mod 网站的服务器架设在国外，在国内使用自动安装器的体验不佳，且安装器容易被杀毒软件误删，因此我们推荐使用手动安装 (Manual Installation)，本文也将只介绍手动安装的方法。
 
@@ -65,7 +65,7 @@ order: 2
 
 请选择 **手动安装 (Manual Installation)** 标签，滚动到网页的下方可以找到各个文件的下载地址。
 
-![](https://cdn.iycx.top/higurashi/guide/07th-mod-full-patch.jpg)  
+![](/guide/07th-mod-full-patch.jpg)  
 
 以下分别对应了 Windows/Linux 和 Mac OSX 的安装教程。
 
@@ -210,7 +210,7 @@ order: 2
 
 找到下载页面。
 
-![](https://cdn.iycx.top/higurashi/guide/07th-mod-voice-only-patch.jpg)  
+![](/guide/07th-mod-voice-only-patch.jpg)  
 
 Patch 和 Voices 必须下载，最后一个 HD Ryukishi Sprites 是高清龙绘补丁，可选择下载。
 

@@ -2,7 +2,7 @@ import { blog } from "vuepress-theme-hope";
 
 export default blog({
   name: "ycx Studios",
-  avatar: "https://cdn.iycx.top/files/YS.jpg",
+  avatar: "/images/YS.jpg",
   /* intro: "https://www.chinalcmod.com", */
   medias: {
     "QQ": "https://higurashi.ycx-studios.site/about.html#玩家交流群",
