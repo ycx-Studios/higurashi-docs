@@ -49,11 +49,11 @@ order: 2
 ## 准备工作
 打开 [07th-mod 官网](https://07th-mod.com)。
 
-![](/guide/07th-mod-main.jpg)  
+![](/guide/07th-mod-main.webp)  
 
 点击 `INSTALL THE PATCH`。页面跳转后，在左侧的导航栏找到 `Higurashi` 标签并点击展开。
 
-![](/guide/07th-mod-wiki.jpg)  
+![](/guide/07th-mod-wiki.webp)  
 
 子标签从上到下分别为 `介绍`、`自动安装器`、`手动安装`、`快捷键与设置`、`仅语音补丁`、`常见问题解答` (包含 `Linux 系统与 Steam Deck`、`背景音乐与音效` 以及 `澪尽篇`)、`获得支持`、`卸载 Mod 及游戏`。
 

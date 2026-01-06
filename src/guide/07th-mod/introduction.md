@@ -28,23 +28,23 @@ order: 1
 
 @tab 主机版预设
 
-![](/guide/console.jpg)
+![](/guide/console.webp)
 
 @tab Steam 版预设
 
-![](/guide/steam.jpg)
+![](/guide/steam.webp)
 
 @tab 原版预设
 
-![](/guide/vanilla.jpg)
+![](/guide/vanilla.webp)
 
 @tab 立绘选项
 
-![](/guide/sprite-comparison.jpg)
+![](/guide/sprite-comparison.webp)
 
 @tab 背景选项
 
-![](/guide/background-comparison.jpg)
+![](/guide/background-comparison.webp)
 
 ::::
 

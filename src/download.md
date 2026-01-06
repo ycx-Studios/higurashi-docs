@@ -9,14 +9,14 @@ article: false
   <VPCard
     title="天翼云盘"
     desc=" 提取码: xx1o"
-    logo="/images/ctcloud.png"
+    logo="/images/ctcloud.webp"
     link="https://cloud.189.cn/web/share?code=euaYZzjEbQji"
     background="rgba(215, 148, 19, 0.15)"
   />
   <VPCard
     title="资源下载站"
     desc="由我们自行托管的文件下载站"
-    logo="/images/favicon.png"
+    logo="/images/favicon.webp"
     link="https://download.chinalcmod.com/Higurashi"
     background="rgba(80, 204, 228, 0.15)"
   />

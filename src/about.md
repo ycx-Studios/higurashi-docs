@@ -4,7 +4,7 @@ icon: circle-info
 article: false
 ---
 ::: center
-![](/images/mologo.png)  
+![](/images/mologo.webp)  
 :::
 
 ## 主要成员
@@ -14,18 +14,18 @@ article: false
   name="ycx"
   desc="主要成员"
   url="https://www.chinalcmod.com"
-  logo="/avatar/ycx.jpg"
+  logo="/avatar/ycx.webp"
   repo="https://github.com/CN-ycx"
-  preview="/avatar/ycx_background.jpg"
+  preview="/avatar/ycx_background.webp"
 />
 
 <SiteInfo
   name="Lancher"
   desc="主要成员"
   url="https://muqo.icu"
-  logo="/avatar/lancher.jpg"
+  logo="/avatar/lancher.webp"
   repo="https://github.com/LancherM"
-  preview="/avatar/lancher_background.jpg"
+  preview="/avatar/lancher_background.webp"
 />
 :::
 

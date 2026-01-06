@@ -11,7 +11,7 @@ export default hopeTheme({
     end: ["Outlook", "Search", "Links", "Repo"],
   },
   navbarIcon: true,
-  logo: "/images/mologo.png",
+  logo: "/images/mologo.webp",
   hostname: "https://higurashi.ycx-studios.site",
   favicon: "/images/favicon.ico",
   
